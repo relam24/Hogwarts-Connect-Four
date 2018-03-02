@@ -1,0 +1,7 @@
+body {
+    background:
+        radial-gradient(#888 1px, transparent 1px),
+        white;
+    background-position: -15px -15px;
+    background-size: 30px 30px;
+}
