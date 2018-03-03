@@ -1,15 +1,17 @@
 header {
+	text-align: center;
 	background-color: black;
 	color: white;
+}
+
+.hogwarts {
+	height: 350px;
 }
 
 body {
 	background-color: black;
 }
 
-.hogwarts {
-	background-color: yellow;
-}
 
 .container {
 	display: flex;
@@ -25,11 +27,13 @@ body {
 	background-color: red;
 	width: 900px;
 	height: 900px;
+	align-self: center;
 
 }
 
 .column1 {
 	background-color: orange;
+	flex-direction: column;
 	width: 300px;
 	height: 300px;
 }
@@ -48,6 +52,7 @@ body {
 	border: 1px solid grey;
 	height: 50px;
 	width: 50px;
+	flex-direction: column;
 
 }
 
