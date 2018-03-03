@@ -23,11 +23,13 @@ $(() => {
 // set timeout for two seconds
 	// setTimeout(openModal, 2000);
 	// end of Modal
+// ===============================================================//
 // create click rules for each column
 // column 1 click rules
-// changed clickedCircle from add class to append
+// added gameClicks function
 	let click1 = 0;
 	const columnOneClick = (event) => {
+		console.log('column1');
 		click1++;
 		if (click1 === 1) {
 			$(event.currentTarget).append($circle1F) .addClass('clickedCircle');
@@ -54,6 +56,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click2 = 0;
 	const columnTwoClick = (event) => {
+		console.log('column2');
 		click2++;
 		if (click2 === 1) {
 			$(event.currentTarget).append($circle2F) .addClass('clickedCircle');
@@ -79,6 +82,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click3 = 0;
 	const columnThreeClick = (event) => {
+		console.log('column3');
 		click3++;
 		if (click3 === 1) {
 			$(event.currentTarget).append($circle3F) .addClass('clickedCircle');
@@ -104,6 +108,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click4 = 0;
 	const columnFourClick = (event) => {
+		console.log('column4');
 		click4++;
 		if (click4 === 1) {
 			$(event.currentTarget).append($circle4F) .addClass('clickedCircle');
@@ -129,6 +134,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click5 = 0;
 	const columnFiveClick = (event) => {
+		console.log('column5');
 		click5++;
 		if (click5 === 1) {
 			$(event.currentTarget).append($circle5F) .addClass('clickedCircle');
@@ -154,6 +160,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click6 = 0;
 	const columnSixClick = (event) => {
+		console.log('column6');
 		click6++;
 		if (click6 === 1) {
 			$(event.currentTarget).append($circle6F) .addClass('clickedCircle');
@@ -178,8 +185,10 @@ $(() => {
 		}
 	};
 // ==============================================================//
+// game click function each click goes between players checks on win
 	let game = 0;
 	const gameClicks = () => {
+		console.log('game clicks');
 		game++;
 		if (game === 1) {
 				playerOne();
@@ -301,8 +310,19 @@ $(() => {
 				restart();
 		}
 	};
-
-
+// ============================================//
+// playerOne
+	const playerOne = () => {
+	console.log('playerone');
+};
+// playerTwo
+	const playerTwo = () => {
+		console.log('playerTwo');
+	}
+// youWin
+	const youWin = () => {
+		console.log('you win');
+	}
 // ==============================================//
 // create circles
 // column 1
