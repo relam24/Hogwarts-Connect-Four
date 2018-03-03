@@ -101,22 +101,22 @@ $(() => {
 	const columnFourClick = (event) => {
 		click4++;
 		if (click4 === 1) {
-			$(event.currentTarget).append($circle5F)
+			$(event.currentTarget).append($circle4F)
 			.addClass('clickedCircle');
 		} else if (click4 === 2) {
-			$(event.currentTarget).append($circle5E)
+			$(event.currentTarget).append($circle4E)
 	.addClass('clickedCircle');
 		} else if (click4 === 3) {
-			$(event.currentTarget).append($circle5D)
+			$(event.currentTarget).append($circle4D)
 	.addClass('clickedCircle');
 		} else if (click4 === 4) {
-			$(event.currentTarget).append($circle5C)
+			$(event.currentTarget).append($circle4C)
 	.addClass('clickedCircle');
 		} else if (click4 === 5) {
-			$(event.currentTarget).append($circle5B)
+			$(event.currentTarget).append($circle4B)
 	.addClass('clickedCircle');
 		} else if (click4 === 6) {
-			$(event.currentTarget).append($circle5A)
+			$(event.currentTarget).append($circle4A)
 	.addClass('clickedCircle');
 		}
 	};
