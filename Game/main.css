@@ -23,7 +23,7 @@ header {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 50%;
-	width: 55%;
+	width: 60%;
 	z-index: 1;
 	overflow: auto;
 	display: none;

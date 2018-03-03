@@ -153,15 +153,6 @@ $(() => {
 	}
 	console.log(turn);
 
-
-
-
-
-
-
-
-
-
 // create circles
 // make main circle
 	const $circle = $('.circle');
@@ -234,7 +225,5 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
-
-
 
 });
