@@ -26,7 +26,7 @@ body {
 .gameboard {
 	display: flex;
 	background-color: red;
-	width: 1200px;
+	width: 1000px;
 	height: 900px;
 	align-self: center;
 
@@ -42,21 +42,74 @@ body {
 	height: 800px;
 }
 
+.column2 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	align-items: center;
+	align-self: center;
+	width: 200px;
+	height: 800px;
+}
+
+.column3 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	align-items: center;
+	align-self: center;
+	width: 200px;
+	height: 800px;
+}
+
+.column4 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	align-items: center;
+	align-self: center;
+	width: 200px;
+	height: 800px;
+}
+
+.column5 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	align-items: center;
+	align-self: center;
+	width: 200px;
+	height: 800px;
+}
+
+.column6 {
+	display: flex;
+	flex-direction: column;
+	background-color: orange;
+	align-items: center;
+	align-self: center;
+	width: 200px;
+	height: 800px;
+}
+
 .circle {
 	background-color: teal;
 	border-radius: 50%;
-	height: 5px;
-	width: 5px;
-	align-items: center;
+	height: 100px;
+	width: 100px;
+	align-self: center;
 
 }
 
 .square {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background-color: black;
 	border: 1px solid grey;
 	height: 200px;
 	width: 150px;
-	flex-direction: row;
+
 
 }
 
