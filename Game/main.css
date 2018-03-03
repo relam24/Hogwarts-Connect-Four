@@ -6,6 +6,7 @@ header {
 	align-items:center;
 	background-color: black;
 	color: white;
+
 }
 
 .hogwarts {
@@ -25,7 +26,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	width: 1900px;
-	height: 1000px;
+	height: 900px;
 }
 
 .gameboard {
