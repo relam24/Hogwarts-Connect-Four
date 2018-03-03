@@ -47,7 +47,6 @@ $(() => {
 			$(event.currentTarget).append($circle1A)
 			.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 // column 2 click rules
 	let click2 = 0;
@@ -72,7 +71,6 @@ $(() => {
 			$(event.currentTarget).append($circle2A)
 		.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 // column 3 click rules
 	let click3 = 0;
@@ -97,7 +95,6 @@ $(() => {
 			$(event.currentTarget).append($circle3A)
 		.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 // column 4 click rules
 	let click4 = 0;
@@ -122,7 +119,6 @@ $(() => {
 			$(event.currentTarget).append($circle5A)
 	.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 // column 5 click rules
 	let click5 = 0;
@@ -147,7 +143,6 @@ $(() => {
 			$(event.currentTarget).append($circle5A)
 		.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 // column 6 click rules
 	let click6 = 0;
@@ -172,7 +167,6 @@ $(() => {
 			$(event.currentTarget).append($circle6A)
 		.addClass('clickedCircle');
 		}
-		console.log('clicked');
 	};
 
 
