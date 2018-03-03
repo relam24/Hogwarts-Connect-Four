@@ -139,10 +139,104 @@ $(() => {
 			$(event.currentTarget).append($circle6A)
 			.addClass('clickedCircle');
 		}
+		gameClicks();
 	};
-
 // ========================================//
- 		// const gameClicks
+	let game = 0;
+ 		const gameClicks = () => {
+			game++;
+			if (click === 1) {
+				playerOne();
+			} else if (click === 2) {
+				playerTwo();
+			} else if (click === 3) {
+				playerOne();
+			} else if (click === 4) {
+				playerTwo();
+				youWin();
+			} else if (click === 5) {
+				playerOne();
+				youWin();
+			} else if (click === 6) {
+				playerTwo();
+				youWin();
+			} else if (click === 7) {
+				playerOne();
+				youWin();
+			} else if (click === 8) {
+				playerTwo();
+				youWin();
+			} else if (click === 9) {
+				playerOne();
+				youWin();
+			} else if (click === 10) {
+				playerTwo();
+				youWin();
+			} else if (click === 11) {
+				playerOne();
+				youWin();
+			} else if (click === 12) {
+				playerTwo();
+				youWin();
+			} else if (click === 13) {
+				playerOne();
+				youWin();
+			} else if (click === 14) {
+				playerTwo();
+				youWin();
+			} else if (click === 15) {
+				playerOne();
+				youWin();
+			} else if (click === 16) {
+				playerTwo();
+				youWin();
+			} else if (click === 17) {
+				playerOne();
+				youWin();
+			} else if (click === 18) {
+				playerTwo();
+				youWin();
+			} else if (click === 19) {
+				playerOne();
+				youWin();
+			} else if (click === 20) {
+				playerTwo();
+				youWin();
+			} else if (click === 21) {
+				playerOne();
+				youWin();
+			} else if (click === 22) {
+				playerTwo();
+				youWin();
+			} else if (click === 23) {
+				playerOne();
+				youWin();
+			} else if (click === 24) {
+				playerTwo();
+				youWin();
+			} else if (click === 25) {
+				playerOne();
+				youWin();
+			} else if (click === 26) {
+				playerTwo();
+				youWin();
+			} else if (click === 27) {
+				playerOne();
+				youWin();
+			} else if (click === 28) {
+				playerTwo()
+				youWin();
+				restart()
+			} else if (click === 29) {
+				playerOne();
+				youWin();
+				restart();
+			} else if (click === 30) {
+				playerTwo();
+				youWin();
+				restart();
+			}
+		};
 
 
 // ==============================================//
