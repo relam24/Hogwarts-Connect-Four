@@ -30,17 +30,27 @@ header {
 }
 
 #modal-textbox {
-	background-color: black;
 	color: white;
 	height: 350px;
 	width: 550px;
 	border-radius: 2 px;
 	margin: 150px;
-	box-shadow: 0 2px 2px; rgba(0, 0, 0, 0.8);
+	box-shadow: 0 2px 2px; background-color: rgba(5, 4, 2, 0.7);
+	align-self: center;
+	justify-content: center;
 }
 
 #modal-footer {
 	text-align: right;
+}
+
+#closeModal {
+	background-color: maroon;
+	color: gold;
+	align-self: center;
+	justify-content: center
+	width: 10px;
+
 }
 
 
