@@ -142,23 +142,8 @@ $(() => {
 	};
 
 // ========================================//
+ 		// const gameClicks
 
-	const $circle = (event) => {
-		for (let turn = 1; turn <= 36; turn++) {
-			$(event.currentTarget);
-			if (turn % 2 === 0) {
-				$(event.currentTarget);
-				console.log(event.currentTarget);
-				$circle
-				.css('background-color', 'red');
-			} else {
-				$(event.currentTarget);
-				console.log(event.currentTarget);
-				$circle
-				.css('background-color', 'black');
-			}
-		}
-	};
 
 // ==============================================//
 // create circles
@@ -209,6 +194,8 @@ $(() => {
 	const $container = $('.container');
 // grab gameboard div
 	const $gameboard = $('.gameboard');
+	// grab circle
+	const $circle = $('.circle');
 // =========================================//
 // grab column1 div
 // create click event
@@ -230,9 +217,6 @@ $(() => {
 // grab column 6 div
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
-	// grab circle
-	const $clickedCircle = $('.clickedCircle');
-	$clickedCircle.on('click', $circle);
 // ===========================================//
 
 });
