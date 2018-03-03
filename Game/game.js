@@ -185,7 +185,6 @@ $(() => {
 
 
 
-
 // create circles
 // column 1
 	const $circle1A = $('#circle1A');
@@ -255,6 +254,9 @@ $(() => {
 // grab column 6 div
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
+// ===========================================//
+// grab clickedCircle class
+	const $clickedCircle = $('.clickedCircle');
 
 
 
