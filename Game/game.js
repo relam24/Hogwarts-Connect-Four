@@ -1,11 +1,21 @@
-
-
-
-
-
-
-
 (() => {
+// Modal
+// grab the open button
+const $openButton = $ ('#openModal');
+// grab modal element
+const $modal = $ ('#modal');
+// grab the close button
+const $closeButton = $ ('#closeModal');
+// put handler above event listener
+// open Modal
+// close Modal
+const openModal = () => {
+	$modal.css('display', 'block');
+};
+const closeModal = () => {
+	$modal.css('display', 'none');
+};
+
 
 
 
