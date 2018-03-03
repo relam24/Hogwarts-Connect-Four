@@ -4,7 +4,7 @@ header {
 	justify-content: center;
 	align-self: center;
 	align-items:center;
-	background-color: black;
+	background-color: rgb(18, 17, 18);
 	color: white;
 }
 
@@ -17,7 +17,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	background-image: url(https://images.pottermore.com/bxd3o8b291gf/3hollgS5QIcaUmoAWMsMEC/0ab7c45e0842488acdce82a76f6a7123/Hogwarts_PM_B4C37M1_GreatHallMourningCedricsDeath_Moment.jpg?w=1200);
-	background-color: black;
+	background-color: rgb(18, 17, 18);
 	position: fixed;
 	top: 56%;
 	left: 50%;
@@ -51,18 +51,10 @@ header {
 	align-self: center;
 	justify-content: center
 	width: 10px;
-
 }
 
-
-
-
-
-
-
-
 body {
-	background-color: black;
+	background-color: rgb(18, 17, 18);
 	align-items: center;
 	align-self: center;
 	justify-content: center;
@@ -74,7 +66,8 @@ body {
 	align-self: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: blue;
+	/* background-color: blue; */
+	background-color: rgb(18, 17, 18);
 	align-items: center;
 	justify-content: center;
 	width: 1900px;
@@ -86,15 +79,15 @@ body {
 	align-items:center;
 	align-self: center;
 	justify-content: center;
-	background-color: rgba(50, 19, 0, 1);
-	width: 1000px;
+	background-image:url(https://cdn.pixabay.com/photo/2016/01/14/18/37/wood-1140564_960_720.jpg);
+	width: 1100px;
 	height: 900px;
 }
 
 .column1 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -105,7 +98,7 @@ body {
 .column2 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -115,7 +108,7 @@ body {
 .column3 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -125,7 +118,7 @@ body {
 .column4 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -135,7 +128,7 @@ body {
 .column5 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -145,7 +138,7 @@ body {
 .column6 {
 	display: flex;
 	flex-direction: column;
-	background-color: orange;
+	background-image:url(https://thumbs.dreamstime.com/t/old-dark-wood-texture-background-wooden-wall-41795950.jpg);
 	align-items: center;
 	align-self: center;
 	width: 200px;
@@ -154,7 +147,7 @@ body {
 
 .column1button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -162,7 +155,7 @@ body {
 
 .column2button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -170,7 +163,7 @@ body {
 
 .column3button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -178,7 +171,7 @@ body {
 
 .column4button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -186,7 +179,7 @@ body {
 
 .column5button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -194,7 +187,7 @@ body {
 
 .column6button {
 	height: 20px;
-	width: 90px;
+	width: 140px;
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
@@ -209,16 +202,19 @@ body {
 	display: fixed;
 }
 
-
-
 .square {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: black;
+	background-image:url(https://cdn.pixabay.com/photo/2016/01/14/18/37/wood-1140564_960_720.jpg);
 	border: 1px solid grey;
 	height: 200px;
 	width: 150px;
+}
+
+button {
+	background-color: rgb(72, 0, 0);
+	color: gold;
 }
 
 footer {

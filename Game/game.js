@@ -25,156 +25,133 @@ $(() => {
 	// end of Modal
 // create click rules for each column
 // column 1 click rules
+// changed clickedCircle from add class to append
 	let click1 = 0;
 	const columnOneClick = (event) => {
 		click1++;
 		if (click1 === 1) {
-			$(event.currentTarget).append($circle1F)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1F, $clickedCircle);
 		} else if (click1 === 2) {
-			$(event.currentTarget).append($circle1E)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1E, $clickedCircle);
 		} else if (click1 === 3) {
-			$(event.currentTarget).append($circle1D)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1D, $clickedCircle);
 		} else if (click1 === 4) {
-			$(event.currentTarget).append($circle1C)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1C, $clickedCircle);
 		} else if (click1 === 5) {
-			$(event.currentTarget).append($circle1B)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1B, $clickedCircle);
 		} else if (click1 === 6) {
-			$(event.currentTarget).append($circle1A)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle1A, $clickedCircle);
 		}
 	};
 // column 2 click rules
+// changed clickedCircle from add class to append
 	let click2 = 0;
 	const columnTwoClick = (event) => {
 		click2++;
 		if (click2 === 1) {
-			$(event.currentTarget).append($circle2F)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2F, $clickedCircle);
 		} else if (click2 === 2) {
-			$(event.currentTarget).append($circle2E)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2E, $clickedCircle);
 		} else if (click2 === 3) {
-			$(event.currentTarget).append($circle2D)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2D, $clickedCircle);
 		} else if (click2 === 4) {
-			$(event.currentTarget).append($circle2C)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2C, $clickedCircle);
 		} else if (click2 === 5) {
-			$(event.currentTarget).append($circle2B)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2B, $clickedCircle);
 		} else if (click2 === 6) {
-			$(event.currentTarget).append($circle2A)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle2A, $clickedCircle);
 		}
 	};
 // column 3 click rules
+// changed clickedCircle from add class to append
 	let click3 = 0;
 	const columnThreeClick = (event) => {
 		click3++;
 		if (click3 === 1) {
-			$(event.currentTarget).append($circle3F)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3F, $clickedCircle);
 		} else if (click3 === 2) {
-			$(event.currentTarget).append($circle3E)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3E, $clickedCircle);
 		} else if (click3 === 3) {
-			$(event.currentTarget).append($circle3D)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3D, $clickedCircle);
 		} else if (click3 === 4) {
-			$(event.currentTarget).append($circle3C)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3C, $clickedCircle);
 		} else if (click3 === 5) {
-			$(event.currentTarget).append($circle3B)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3B, $clickedCircle);
 		} else if (click3 === 6) {
-			$(event.currentTarget).append($circle3A)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle3A, $clickedCircle);
 		}
 	};
 // column 4 click rules
+// changed clickedCircle from add class to append
 	let click4 = 0;
 	const columnFourClick = (event) => {
 		click4++;
 		if (click4 === 1) {
-			$(event.currentTarget).append($circle4F)
-			.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4F, $clickedCircle);
 		} else if (click4 === 2) {
-			$(event.currentTarget).append($circle4E)
-	.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4E, $clickedCircle);
 		} else if (click4 === 3) {
-			$(event.currentTarget).append($circle4D)
-	.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4D, $clickedCircle);
 		} else if (click4 === 4) {
-			$(event.currentTarget).append($circle4C)
-	.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4C, $clickedCircle);
 		} else if (click4 === 5) {
-			$(event.currentTarget).append($circle4B)
-	.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4B, $clickedCircle);
 		} else if (click4 === 6) {
-			$(event.currentTarget).append($circle4A)
-	.addClass('clickedCircle');
+			$(event.currentTarget).append($circle4A, $clickedCircle);
 		}
 	};
 // column 5 click rules
+// changed clickedCircle from add class to append
 	let click5 = 0;
 	const columnFiveClick = (event) => {
 		click5++;
 		if (click5 === 1) {
-			$(event.currentTarget).append($circle5F)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5F, $clickedCircle);
 		} else if (click5 === 2) {
-			$(event.currentTarget).append($circle5E)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5E, $clickedCircle);
 		} else if (click5 === 3) {
-			$(event.currentTarget).append($circle5D)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5D, $clickedCircle);
 		} else if (click5 === 4) {
-			$(event.currentTarget).append($circle5C)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5C, $clickedCircle);
 		} else if (click5 === 5) {
-			$(event.currentTarget).append($circle5B)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5B, $clickedCircle);
 		} else if (click5 === 6) {
-			$(event.currentTarget).append($circle5A)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle5A, $clickedCircle);
 		}
 	};
 // column 6 click rules
+// changed clickedCircle from add class to append
 	let click6 = 0;
 	const columnSixClick = (event) => {
 		click6++;
 		if (click6 === 1) {
-			$(event.currentTarget).append($circle6F)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6F, $clickedCircle);
 		} else if (click6 === 2) {
-			$(event.currentTarget).append($circle6E)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6E, $clickedCircle);
 		} else if (click6 === 3) {
-			$(event.currentTarget).append($circle6D)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6D, $clickedCircle);
 		} else if (click6 === 4) {
-			$(event.currentTarget).append($circle6C)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6C, $clickedCircle);
 		} else if (click6 === 5) {
-			$(event.currentTarget).append($circle6B)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6B, $clickedCircle);
 		} else if (click6 === 6) {
-			$(event.currentTarget).append($circle6A)
-		.addClass('clickedCircle');
+			$(event.currentTarget).append($circle6A, $clickedCircle);
 		}
 	};
-
-
-
-
-
-
-
+	// =========================================//
+	// grab clickedCircle class
+		// change circle color by whose turn it is
+	let turn = 1;
+	const $clickedCircle = $('.clickedCircle');
+	for (let turn = 1; turn <= 36; turn++);
+	if (turn % 2 === 0) {
+		$clickedCircle
+			.css('background-color', 'red');
+	} else {
+		$clickedCircle
+			.css('background-color', 'gold');
+	}
+	console.log(turn);
 
 
 
@@ -186,6 +163,8 @@ $(() => {
 
 
 // create circles
+// make main circle
+	const $circle = $('.circle');
 // column 1
 	const $circle1A = $('#circle1A');
 	const $circle1B = $('#circle1B');
@@ -237,7 +216,7 @@ $(() => {
 // grab column1 div
 // create click event
 // send to function
-	const $column1 = $('.column1');
+	const $column1 = $('.column1')
 	$column1.on('click', columnOneClick);
 // grab column2 div
 	const $column2 = $('.column2');
@@ -255,8 +234,6 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
-// grab clickedCircle class
-	const $clickedCircle = $('.clickedCircle');
 
 
 
