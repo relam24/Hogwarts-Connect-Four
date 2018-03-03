@@ -91,15 +91,6 @@ body {
 	height: 900px;
 }
 
-.column1button {
-	height: 50px;
-	width: 50px;
-	flex-direction: column;
-	align-self: center;
-	align-items: center;
-	justify-content: center;
-
-}
 .column1 {
 	display: flex;
 	flex-direction: column;
@@ -161,34 +152,52 @@ body {
 	height: 800px;
 }
 
-.column2button {
-	height: 5px;
-	width: 5px;
+.column1button {
+	height: 20px;
+	width: 90px;
 	flex-direction: row;
+	margin: 0;
+	padding: 0;
+}
+
+.column2button {
+	height: 20px;
+	width: 90px;
+	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 .column3button {
-	height: 5px;
-	width: 5px;
+	height: 20px;
+	width: 90px;
 	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 .column4button {
-	height: 5px;
-	width: 5px;
+	height: 20px;
+	width: 90px;
 	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 .column5button {
-	height: 5px;
-	width: 5px;
+	height: 20px;
+	width: 90px;
 	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 .column6button {
-	height: 5px;
-	width: 5px;
+	height: 20px;
+	width: 90px;
 	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
 
 .circle {
