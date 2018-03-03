@@ -1,11 +1,11 @@
 $(() => {
 // Modal
 // grab the open button
-	const $openButton = $ ('#openModal');
+	const $openButton = $('#openModal');
 // grab modal element
-	const $modal = $ ('#modal');
+	const $modal = $('#modal');
 // grab the close button
-	const $closeButton = $ ('#closeModal');
+	const $closeButton = $('#closeModal');
 // put handler above event listener
 // open Modal
 // close Modal
@@ -140,38 +140,27 @@ $(() => {
 			.addClass('clickedCircle');
 		}
 	};
-	//=========================================//
-	// let turn = 1;
-	// const colorOfCircle = (event) => {
-	// 	for (let turn = 1; turn <= 36; turn++) {
-	// 		if (turn % 2 === 0) {
-	// 			$clickedCircle();
-	// 			console.log('working');
-	// 		} else {
-	// 			$clickedCircle
-	// 			.css('background-color', 'black');
-	// 		}
-	// 	}
-	// }
-	//
 
+// ========================================//
 
+	const $circle = (event) => {
+		for (let turn = 1; turn <= 36; turn++) {
+			$(event.currentTarget);
+			if (turn % 2 === 0) {
+				$(event.currentTarget);
+				console.log(event.currentTarget);
+				$circle
+				.css('background-color', 'red');
+			} else {
+				$(event.currentTarget);
+				console.log(event.currentTarget);
+				$circle
+				.css('background-color', 'black');
+			}
+		}
+	};
 
-
-
-
-
-
-
-
-	//=========================================//
-	// grab clickedCircle class
-	const $clickedCircle = ('.clickedCircle');
-// make main circle
-	const $circle = $('.circle');
-// appended clickedCircle to all circles
-	$circle.append($clickedCircle);
-	console.log($circle);
+// ==============================================//
 // create circles
 // column 1
 	const $circle1A = $('#circle1A');
@@ -241,6 +230,9 @@ $(() => {
 // grab column 6 div
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
+	// grab circle
+	const $clickedCircle = $('.clickedCircle');
+	$clickedCircle.on('click', $circle);
 // ===========================================//
 
 });
