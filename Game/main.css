@@ -6,7 +6,6 @@ header {
 	align-items:center;
 	background-color: black;
 	color: white;
-
 }
 
 .hogwarts {
@@ -16,11 +15,16 @@ header {
 
 body {
 	background-color: black;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
 }
 
 
 .container {
 	display: flex;
+	align-self: center;
+	align-items: center;
 	flex-direction: column;
 	background-color: blue;
 	align-items: center;
@@ -31,11 +35,12 @@ body {
 
 .gameboard {
 	display: flex;
+	align-items:center;
+	align-self: center;
+	justify-content: center;
 	background-color: red;
 	width: 1000px;
 	height: 900px;
-	align-self: center;
-
 }
 
 .column1 {
@@ -104,7 +109,6 @@ body {
 	height: 100px;
 	width: 100px;
 	align-self: center;
-
 }
 
 .square {
@@ -115,13 +119,12 @@ body {
 	border: 1px solid grey;
 	height: 200px;
 	width: 150px;
-
-
 }
 
 footer {
 	display: inline-block;
 	height: 75px;
+	background-image: url(http://img3.wikia.nocookie.net/__cb20140731114456/harrypotter/images/c/ca/Three_Broomsticks_Inn_Pottermore.png);
 }
 
 .deathlyhallows  {
@@ -129,3 +132,9 @@ footer {
 	height: 70px;
 	width: 70px;
 }
+
+/* .threebroomsticks {
+	display:block;
+	width: 1000px;
+	height: 500px;
+} */
