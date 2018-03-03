@@ -141,130 +141,130 @@ $(() => {
 		}
 		gameClicks();
 	};
-// ========================================//
+// ==============================================================//
 	let game = 0;
- 		const gameClicks = () => {
-			game++;
-			if (click === 1) {
+	const gameClicks = () => {
+		game++;
+		if (game === 1) {
 				playerOne();
-			} else if (click === 2) {
+		} else if (game === 2) {
 				playerTwo();
-			} else if (click === 3) {
+		} else if (game === 3) {
 				playerOne();
-			} else if (click === 4) {
-				playerTwo();
-				youWin();
-			} else if (click === 5) {
-				playerOne();
-				youWin();
-			} else if (click === 6) {
+		} else if (game === 4) {
 				playerTwo();
 				youWin();
-			} else if (click === 7) {
+		} else if (game === 5) {
 				playerOne();
 				youWin();
-			} else if (click === 8) {
+		} else if (game === 6) {
 				playerTwo();
 				youWin();
-			} else if (click === 9) {
+		} else if (game === 7) {
 				playerOne();
 				youWin();
-			} else if (click === 10) {
+		} else if (game === 8) {
 				playerTwo();
 				youWin();
-			} else if (click === 11) {
+		} else if (game === 9) {
 				playerOne();
 				youWin();
-			} else if (click === 12) {
+		} else if (game === 10) {
 				playerTwo();
 				youWin();
-			} else if (click === 13) {
+		} else if (game === 11) {
 				playerOne();
 				youWin();
-			} else if (click === 14) {
+		} else if (game === 12) {
 				playerTwo();
 				youWin();
-			} else if (click === 15) {
+		} else if (game === 13) {
 				playerOne();
 				youWin();
-			} else if (click === 16) {
+		} else if (game === 14) {
 				playerTwo();
 				youWin();
-			} else if (click === 17) {
+		} else if (game === 15) {
 				playerOne();
 				youWin();
-			} else if (click === 18) {
+		} else if (game === 16) {
 				playerTwo();
 				youWin();
-			} else if (click === 19) {
+		} else if (game === 17) {
 				playerOne();
 				youWin();
-			} else if (click === 20) {
+		} else if (game === 18) {
 				playerTwo();
 				youWin();
-			} else if (click === 21) {
+		} else if (game === 19) {
 				playerOne();
 				youWin();
-			} else if (click === 22) {
+		} else if (game === 20) {
 				playerTwo();
 				youWin();
-			} else if (click === 23) {
+		} else if (game === 21) {
 				playerOne();
 				youWin();
-			} else if (click === 24) {
+		} else if (game === 22) {
 				playerTwo();
 				youWin();
-			} else if (click === 25) {
+		} else if (game === 23) {
 				playerOne();
 				youWin();
-			} else if (click === 26) {
+		} else if (game === 24) {
 				playerTwo();
 				youWin();
-			} else if (click === 27) {
+		} else if (game === 25) {
 				playerOne();
 				youWin();
-			} else if (click === 28) {
+		} else if (game === 26) {
+				playerTwo();
+				youWin();
+		} else if (game === 27) {
+				playerOne();
+				youWin();
+		} else if (game === 28) {
 				playerTwo()
 				youWin();
 				restart()
-			} else if (click === 29) {
+		} else if (game === 29) {
 				playerOne();
 				youWin();
 				restart();
-			} else if (click === 30) {
+		} else if (game === 30) {
 				playerTwo();
 				youWin();
 				restart();
-			} else if (click === 31) {
+		} else if (game === 31) {
 				playerOne();
 				youWin();
 				restart();
-			} else if (click === 31) {
+		} else if (game === 31) {
 				playerTwo();
 				youWin();
 				restart();
-			} else if (click === 32) {
+		} else if (game === 32) {
 				playerOne();
 				youWin();
 				restart();
-			} else if (click === 33) {
+		} else if (game === 33) {
 				playerTwo();
 				youWin();
 				restart();
-			} else if (click === 34) {
+		} else if (game === 34) {
 				playerOne();
 				youWin();
 				restart();
-			} else if (click === 35) {
+		} else if (game === 35) {
 				playerTwo();
 				youWin();
 				restart();
-			} else if (click === 36) {
+		} else if (game === 36) {
 				playerOne();
 				youWin();
 				restart();
-			}
-		};
+		}
+	};
 
 
 // ==============================================//
