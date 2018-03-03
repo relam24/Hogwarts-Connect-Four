@@ -31,16 +31,23 @@ $(() => {
 		click1++;
 		if (click1 === 1) {
 			$(event.currentTarget).append($circle1F) .addClass('clickedCircle');
+			gameClicks();
+			console.log('gameclicks');
 		} else if (click1 === 2) {
 			$(event.currentTarget).append($circle1E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click1 === 3) {
 			$(event.currentTarget).append($circle1D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click1 === 4) {
 			$(event.currentTarget).append($circle1C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click1 === 5) {
 			$(event.currentTarget).append($circle1B) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click1 === 6) {
 			$(event.currentTarget).append($circle1A) .addClass('clickedCircle');
+			gameClicks();
 		}
 	};
 // column 2 click rules
@@ -50,16 +57,22 @@ $(() => {
 		click2++;
 		if (click2 === 1) {
 			$(event.currentTarget).append($circle2F) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click2 === 2) {
 			$(event.currentTarget).append($circle2E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click2 === 3) {
 			$(event.currentTarget).append($circle2D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click2 === 4) {
 			$(event.currentTarget).append($circle2C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click2 === 5) {
 			$(event.currentTarget).append($circle2B) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click2 === 6) {
 			$(event.currentTarget).append($circle2A) .addClass('clickedCircle');
+			gameClicks();
 		}
 	};
 // column 3 click rules
@@ -69,16 +82,22 @@ $(() => {
 		click3++;
 		if (click3 === 1) {
 			$(event.currentTarget).append($circle3F) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click3 === 2) {
 			$(event.currentTarget).append($circle3E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click3 === 3) {
 			$(event.currentTarget).append($circle3D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click3 === 4) {
 			$(event.currentTarget).append($circle3C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click3 === 5) {
 			$(event.currentTarget).append($circle3B) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click3 === 6) {
 			$(event.currentTarget).append($circle3A) .addClass('clickedCircle');
+			gameClicks();
 		}
 	};
 // column 4 click rules
@@ -88,16 +107,22 @@ $(() => {
 		click4++;
 		if (click4 === 1) {
 			$(event.currentTarget).append($circle4F) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click4 === 2) {
 			$(event.currentTarget).append($circle4E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click4 === 3) {
 			$(event.currentTarget).append($circle4D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click4 === 4) {
 			$(event.currentTarget).append($circle4C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click4 === 5) {
 			$(event.currentTarget).append($circle4B) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click4 === 6) {
 			$(event.currentTarget).append($circle4A) .addClass('clickedCircle');
+			gameClicks();
 		}
 	};
 // column 5 click rules
@@ -107,16 +132,22 @@ $(() => {
 		click5++;
 		if (click5 === 1) {
 			$(event.currentTarget).append($circle5F) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click5 === 2) {
 			$(event.currentTarget).append($circle5E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click5 === 3) {
 			$(event.currentTarget).append($circle5D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click5 === 4) {
 			$(event.currentTarget).append($circle5C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click5 === 5) {
 			$(event.currentTarget).append($circle5B) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click5 === 6) {
 			$(event.currentTarget).append($circle5A) .addClass('clickedCircle');
+			gameClicks();
 		}
 	};
 // column 6 click rules
@@ -126,20 +157,25 @@ $(() => {
 		click6++;
 		if (click6 === 1) {
 			$(event.currentTarget).append($circle6F) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click6 === 2) {
 			$(event.currentTarget).append($circle6E) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click6 === 3) {
 			$(event.currentTarget).append($circle6D) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click6 === 4) {
 			$(event.currentTarget).append($circle6C) .addClass('clickedCircle');
+			gameClicks();
 		} else if (click6 === 5) {
 			$(event.currentTarget).append($circle6B)
 			.addClass('clickedCircle');
+			gameClicks();
 		} else if (click6 === 6) {
 			$(event.currentTarget).append($circle6A)
 			.addClass('clickedCircle');
+			gameClicks();
 		}
-		gameClicks();
 	};
 // ==============================================================//
 	let game = 0;
