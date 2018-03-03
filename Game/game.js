@@ -313,16 +313,19 @@ $(() => {
 // ============================================//
 // playerOne
 	const playerOne = () => {
-	console.log('playerone');
-};
+		console.log('playerone');
+		$circle.css('background-color', 'red');
+	};
 // playerTwo
 	const playerTwo = () => {
 		console.log('playerTwo');
-	}
+		$circle.css('background-color', 'gold');
+	};
 // youWin
 	const youWin = () => {
 		console.log('you win');
-	}
+
+	};
 // ==============================================//
 // create circles
 // column 1
