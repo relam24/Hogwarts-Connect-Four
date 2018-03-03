@@ -141,9 +141,32 @@ $(() => {
 		}
 	};
 	//=========================================//
+	// let turn = 1;
+	// const colorOfCircle = (event) => {
+	// 	for (let turn = 1; turn <= 36; turn++) {
+	// 		if (turn % 2 === 0) {
+	// 			$clickedCircle();
+	// 			console.log('working');
+	// 		} else {
+	// 			$clickedCircle
+	// 			.css('background-color', 'black');
+	// 		}
+	// 	}
+	// }
+	//
+
+
+
+
+
+
+
+
+
+
+	//=========================================//
 	// grab clickedCircle class
-		// change circle color by whose turn it is
-		const $clickedCircle = ('.clickedCircle')
+	const $clickedCircle = ('.clickedCircle');
 // make main circle
 	const $circle = $('.circle');
 // appended clickedCircle to all circles
