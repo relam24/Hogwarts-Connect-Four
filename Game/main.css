@@ -1,11 +1,16 @@
 header {
-	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	align-items:center;
 	background-color: black;
 	color: white;
 }
 
 .hogwarts {
-	height: 250px;
+	height: 200px;
+	width: 150px;
 }
 
 body {
@@ -19,7 +24,7 @@ body {
 	background-color: blue;
 	align-items: center;
 	justify-content: center;
-	width: 2000px;
+	width: 1900px;
 	height: 1000px;
 }
 
