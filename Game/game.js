@@ -1,22 +1,27 @@
 (() => {
 // Modal
 // grab the open button
-const $openButton = $ ('#openModal');
+	const $openButton = $ ('#openModal');
 // grab modal element
-const $modal = $ ('#modal');
+	const $modal = $ ('#modal');
 // grab the close button
-const $closeButton = $ ('#closeModal');
+	const $closeButton = $ ('#closeModal');
 // put handler above event listener
 // open Modal
 // close Modal
-const openModal = () => {
-	$modal.css('display', 'block');
-};
-const closeModal = () => {
-	$modal.css('display', 'none');
-};
-
-
+	const openModal = () => {
+		$modal.css('display', 'block');
+	};
+	const closeModal = () => {
+		$modal.css('display', 'none');
+	};
+// make event listener
+// open button
+// close button
+	$openButton.on('click', openModal);
+	$closeButton.on('click', closeModal);
+// set timeout for two seconds
+	setTimeout(openModal, 2000);
 
 
 
