@@ -21,8 +21,10 @@ $(() => {
 	$openButton.on('click', openModal);
 	$closeButton.on('click', closeModal);
 // set timeout for two seconds
-	setTimeout(openModal, 2000);
-
+	// setTimeout(openModal, 2000);
+	// end of Modal
+// create click rules for each column
+// column 1
 
 
 
