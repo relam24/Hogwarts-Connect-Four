@@ -235,6 +235,34 @@ $(() => {
 				playerTwo();
 				youWin();
 				restart();
+			} else if (click === 31) {
+				playerOne();
+				youWin();
+				restart();
+			} else if (click === 31) {
+				playerTwo();
+				youWin();
+				restart();
+			} else if (click === 32) {
+				playerOne();
+				youWin();
+				restart();
+			} else if (click === 33) {
+				playerTwo();
+				youWin();
+				restart();
+			} else if (click === 34) {
+				playerOne();
+				youWin();
+				restart();
+			} else if (click === 35) {
+				playerTwo();
+				youWin();
+				restart();
+			} else if (click === 36) {
+				playerOne();
+				youWin();
+				restart();
 			}
 		};
 
