@@ -1,7 +1,58 @@
+header {
+	background-color: black;
+	color: white;
+}
+
 body {
-    background:
-        radial-gradient(#888 1px, transparent 1px),
-        white;
-    background-position: -15px -15px;
-    background-size: 30px 30px;
+	background-color: black;
+}
+
+.hogwarts {
+	background-color: yellow;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	align-items: center;
+	justify-content: center;
+	width: 2000px;
+	height: 1000px;
+}
+
+.gameboard {
+	background-color: red;
+	width: 900px;
+	height: 900px;
+
+}
+
+.column1 {
+	background-color: orange;
+	width: 300px;
+	height: 300px;
+}
+
+.circle {
+	background-color: teal;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	align-items: center;
+
+}
+
+.square {
+	background-color: black;
+	border: 1px solid grey;
+	height: 50px;
+	width: 50px;
+
+}
+
+footer {
+	background-color: black;
+	margin: 0;
+	padding: 0;
 }
