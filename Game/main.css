@@ -14,20 +14,21 @@ header {
 }
 
 #modal {
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	background-image: url(https://images.pottermore.com/bxd3o8b291gf/3hollgS5QIcaUmoAWMsMEC/0ab7c45e0842488acdce82a76f6a7123/Hogwarts_PM_B4C37M1_GreatHallMourningCedricsDeath_Moment.jpg?w=1200);
 	background-color: rgb(18, 17, 18);
 	position: fixed;
-	top: 56%;
+	top: 68%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: 50%;
+	height: 60%;
 	width: 60%;
 	z-index: 1;
 	overflow: auto;
 	display: none;
-	overflow-y:hidden;
 }
 
 #modal-textbox {
@@ -37,13 +38,16 @@ header {
 	border-radius: 2 px;
 	margin: 150px;
 	margin-left: 300px;
-	box-shadow: 0 1px 1px; background-color: rgba(5, 4, 2, 0.7);
+	box-shadow: 0 1px 1px;
+	top: 20%;
+ background-color: rgba(5, 4, 2, 0.7);
 	align-self: center;
 	justify-content: center;
 }
 
-#modal-footer {
-	text-align: right;
+#closeModal {
+	text-align: center;
+	align-items: center;
 }
 
 #closeModal {
