@@ -33,21 +33,27 @@ $(() => {
 		click1++;
 		if (click1 === 1) {
 			$(event.currentTarget).append($circle1F);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 2) {
 			$(event.currentTarget).append($circle1E);
+			$circle1E.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 3) {
 			$(event.currentTarget).append($circle1D);
+			$circle1D.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 4) {
 			$(event.currentTarget).append($circle1C);
+			$circle1C.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 5) {
 			$(event.currentTarget).append($circle1B);
+			$circle1B.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 6) {
 			$(event.currentTarget).append($circle1A);
+			$circle1A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -59,21 +65,27 @@ $(() => {
 		click2++;
 		if (click2 === 1) {
 			$(event.currentTarget).append($circle2F);
+			$circle2F.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 2) {
 			$(event.currentTarget).append($circle2E);
+			$circle2E.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 3) {
 			$(event.currentTarget).append($circle2D);
+			$circle2D.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 4) {
 			$(event.currentTarget).append($circle2C);
+			$circle2C.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 5) {
 			$(event.currentTarget).append($circle2B);
+			$circle2B.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 6) {
 			$(event.currentTarget).append($circle2A);
+			$circle2A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -85,21 +97,27 @@ $(() => {
 		click3++;
 		if (click3 === 1) {
 			$(event.currentTarget).append($circle3F);
+			$circle3F.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 2) {
 			$(event.currentTarget).append($circle3E);
+			$circle3E.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 3) {
 			$(event.currentTarget).append($circle3D);
+			$circle3D.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 4) {
 			$(event.currentTarget).append($circle3C);
+			$circle3C.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 5) {
 			$(event.currentTarget).append($circle3B);
+			$circle3B.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 6) {
 			$(event.currentTarget).append($circle3A);
+			$circle3A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -111,21 +129,27 @@ $(() => {
 		click4++;
 		if (click4 === 1) {
 			$(event.currentTarget).append($circle4F);
+			$circle4F.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 2) {
 			$(event.currentTarget).append($circle4E);
+			$circle4E.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 3) {
 			$(event.currentTarget).append($circle4D);
+			$circle4D.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 4) {
 			$(event.currentTarget).append($circle4C);
+			$circle4C.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 5) {
 			$(event.currentTarget).append($circle4B);
+			$circle4B.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 6) {
 			$(event.currentTarget).append($circle4A);
+			$circle4A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -137,21 +161,27 @@ $(() => {
 		click5++;
 		if (click5 === 1) {
 			$(event.currentTarget).append($circle5F);
+			$circle5F.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 2) {
 			$(event.currentTarget).append($circle5E);
+			$circle5E.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 3) {
 			$(event.currentTarget).append($circle5D);
+			$circle5D.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 4) {
 			$(event.currentTarget).append($circle5C);
+			$circle5C.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 5) {
 			$(event.currentTarget).append($circle5B);
+			$circle5B.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 6) {
 			$(event.currentTarget).append($circle5A);
+			$circle5A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -163,28 +193,34 @@ $(() => {
 		click6++;
 		if (click6 === 1) {
 			$(event.currentTarget).append($circle6F);
+			$circle6F.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 2) {
 			$(event.currentTarget).append($circle6E);
+			$circle6E.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 3) {
 			$(event.currentTarget).append($circle6D);
+			$circle6D.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 4) {
 			$(event.currentTarget).append($circle6C);
+			$circle6C.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 5) {
 			$(event.currentTarget).append($circle6B);
+			$circle6B.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 6) {
 			$(event.currentTarget).append($circle6A);
+			$circle6A.on('click', whoClicked);
 			gameClicks();
 		}
 	};
 // ==============================================================//
 // game click function each click goes between players checks on win
 	let game = 0;
-	const gameClicks = () => {
+	const gameClicks = (event) => {
 		console.log('game clicks');
 		game++;
 		if (game === 1) {
@@ -266,9 +302,9 @@ $(() => {
 			playerOne();
 			youWin();
 		} else if (game === 28) {
-			playerTwo()
+			playerTwo();
 			youWin();
-			restart()
+			restart();
 		} else if (game === 29) {
 			playerOne();
 			youWin();
@@ -281,48 +317,62 @@ $(() => {
 			playerOne();
 			youWin();
 			restart();
-		} else if (game === 31) {
-			playerTwo();
-			youWin();
-			restart();
 		} else if (game === 32) {
-			playerOne();
+			playerTwo();
 			youWin();
 			restart();
 		} else if (game === 33) {
-			playerTwo();
+			playerOne();
 			youWin();
 			restart();
 		} else if (game === 34) {
-			playerOne();
-			youWin();
-			restart();
-		} else if (game === 35) {
 			playerTwo();
 			youWin();
 			restart();
-		} else if (game === 36) {
+		} else if (game === 35) {
 			playerOne();
+			youWin();
+			restart();
+		} else if (game === 36) {
+			playerTwo();
 			youWin();
 			restart();
 		}
 	};
 // ============================================//
-// playerOne
 	const playerOne = () => {
 		console.log('playerone');
-
-	};
-// playerTwo
+	}
 	const playerTwo = () => {
-		console.log('playerTwo');
+		console.log('playertwo');
+	}
+// WhoClicked
+	const whoClicked = (event) => {
+		console.log('who clicked');
+		if (playerOne(game) === true) {
+			$(event.currentTarget).css('background-color', 'red');
+		} else {
+			$(event.currentTarget).css('background-color', 'gold');
+		}
 	};
+
+
 // youWin
 	const youWin = () => {
 		console.log('you win');
-
+	};
+// restart
+	const restart = () => {
+		console.log('restart');
 	};
 // ==============================================//
+// column buttons
+	const $column1button = $('.column1button');
+	const $column2button = $('.column2button');
+	const $column3button = $('.column3button');
+	const $column4button = $('.column4button');
+	const $column5button = $('.column5button');
+	const $column6button = $('.column6button');
 // create circles
 // column 1
 	const $circle1A = $('#circle1A');
