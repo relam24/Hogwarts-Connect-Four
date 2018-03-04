@@ -37,23 +37,23 @@ $(() => {
 			gameClicks();
 		} else if (click1 === 2) {
 			$(event.currentTarget).append($circle1E);
-			$circle1E.on('click', whoClicked);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 3) {
 			$(event.currentTarget).append($circle1D);
-			$circle1D.on('click', whoClicked);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 4) {
 			$(event.currentTarget).append($circle1C);
-			$circle1C.on('click', whoClicked);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 5) {
 			$(event.currentTarget).append($circle1B);
-			$circle1B.on('click', whoClicked);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		} else if (click1 === 6) {
 			$(event.currentTarget).append($circle1A);
-			$circle1A.on('click', whoClicked);
+			$column1button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -65,27 +65,27 @@ $(() => {
 		click2++;
 		if (click2 === 1) {
 			$(event.currentTarget).append($circle2F);
-			$circle2F.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 2) {
 			$(event.currentTarget).append($circle2E);
-			$circle2E.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 3) {
 			$(event.currentTarget).append($circle2D);
-			$circle2D.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 4) {
 			$(event.currentTarget).append($circle2C);
-			$circle2C.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 5) {
 			$(event.currentTarget).append($circle2B);
-			$circle2B.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		} else if (click2 === 6) {
 			$(event.currentTarget).append($circle2A);
-			$circle2A.on('click', whoClicked);
+			$column2button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -97,27 +97,27 @@ $(() => {
 		click3++;
 		if (click3 === 1) {
 			$(event.currentTarget).append($circle3F);
-			$circle3F.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 2) {
 			$(event.currentTarget).append($circle3E);
-			$circle3E.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 3) {
 			$(event.currentTarget).append($circle3D);
-			$circle3D.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 4) {
 			$(event.currentTarget).append($circle3C);
-			$circle3C.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 5) {
 			$(event.currentTarget).append($circle3B);
-			$circle3B.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		} else if (click3 === 6) {
 			$(event.currentTarget).append($circle3A);
-			$circle3A.on('click', whoClicked);
+			$column3button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -129,27 +129,27 @@ $(() => {
 		click4++;
 		if (click4 === 1) {
 			$(event.currentTarget).append($circle4F);
-			$circle4F.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 2) {
 			$(event.currentTarget).append($circle4E);
-			$circle4E.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 3) {
 			$(event.currentTarget).append($circle4D);
-			$circle4D.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 4) {
 			$(event.currentTarget).append($circle4C);
-			$circle4C.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 5) {
 			$(event.currentTarget).append($circle4B);
-			$circle4B.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		} else if (click4 === 6) {
 			$(event.currentTarget).append($circle4A);
-			$circle4A.on('click', whoClicked);
+			$column4button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -161,27 +161,27 @@ $(() => {
 		click5++;
 		if (click5 === 1) {
 			$(event.currentTarget).append($circle5F);
-			$circle5F.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 2) {
 			$(event.currentTarget).append($circle5E);
-			$circle5E.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 3) {
 			$(event.currentTarget).append($circle5D);
-			$circle5D.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 4) {
 			$(event.currentTarget).append($circle5C);
-			$circle5C.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 5) {
 			$(event.currentTarget).append($circle5B);
-			$circle5B.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		} else if (click5 === 6) {
 			$(event.currentTarget).append($circle5A);
-			$circle5A.on('click', whoClicked);
+			$column5button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -193,27 +193,27 @@ $(() => {
 		click6++;
 		if (click6 === 1) {
 			$(event.currentTarget).append($circle6F);
-			$circle6F.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 2) {
 			$(event.currentTarget).append($circle6E);
-			$circle6E.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 3) {
 			$(event.currentTarget).append($circle6D);
-			$circle6D.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 4) {
 			$(event.currentTarget).append($circle6C);
-			$circle6C.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 5) {
 			$(event.currentTarget).append($circle6B);
-			$circle6B.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		} else if (click6 === 6) {
 			$(event.currentTarget).append($circle6A);
-			$circle6A.on('click', whoClicked);
+			$column6button.on('click', whoClicked);
 			gameClicks();
 		}
 	};
@@ -349,7 +349,7 @@ $(() => {
 // WhoClicked
 	const whoClicked = (event) => {
 		console.log('who clicked');
-		if (playerOne(game) === true) {
+		if (game % 2 === 0) {
 			$(event.currentTarget).css('background-color', 'red');
 		} else {
 			$(event.currentTarget).css('background-color', 'gold');
