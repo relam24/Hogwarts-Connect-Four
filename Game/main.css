@@ -32,30 +32,59 @@ header {
 }
 
 #modal-textbox {
-	color: white;
+	color: gray;
 	height: 320px;
 	width: 550px;
 	border-radius: 2 px;
 	margin: 150px;
-	margin-left: 300px;
+	margin-left: 25px;
 	box-shadow: 0 1px 1px;
-	top: 20%;
- background-color: rgba(5, 4, 2, 0.7);
+	top: 50%;
+ 	background-color: rgba(5, 4, 2, 0.7);
 	align-self: center;
 	justify-content: center;
+	text-align: left;
 }
 
-#closeModal {
+.welcome {
 	text-align: center;
-	align-items: center;
 }
+
+.fourhouses {
+	text-align: center;
+}
+
+.professor {
+	text-align: center;
+}
+
+
+
+/* .gryf {
+	color: maroon;
+}
+
+.huff {
+	color: gold;
+}
+
+.raven {
+	color: royalblue;
+}
+
+.slytherin {
+	color: green;
+} */
 
 #closeModal {
 	background-color: maroon;
 	color: gold;
 	align-self: center;
-	justify-content: center
-	width: 10px;
+	text-align: center;
+	justify-content: left;
+	width: 60px;
+	height: 35px;
+	opacity: 0.6;
 }
 
 body {

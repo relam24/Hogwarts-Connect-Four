@@ -21,7 +21,7 @@ $(() => {
 	$openButton.on('click', openModal);
 	$closeButton.on('click', closeModal);
 // set timeout for two seconds
-	setTimeout(openModal, 2000);
+ // setTimeout(openModal, 2000);
 	// end of Modal
 // ===============================================================//
 // create click rules for each column
@@ -183,7 +183,6 @@ $(() => {
 			.addClass('clickedCircle');
 			gameClicks();
 		}
-
 	};
 // ==============================================================//
 // game click function each click goes between players checks on win
@@ -320,7 +319,7 @@ $(() => {
 // playerTwo
 	const playerTwo = () => {
 		console.log('playerTwo');
-		$('clickedCircle').css('background-color', 'gold');
+		$('clicked').css('background-color', 'gold');
 	};
 // youWin
 	const youWin = () => {
