@@ -24,6 +24,36 @@ $(() => {
  // setTimeout(openModal, 2000);
 	// end of Modal
 // ===============================================================//
+// playerOne playerTwo and who clicked function
+	const playerOne = () => {
+		console.log('playerone');
+	}
+	const playerTwo = () => {
+		console.log('playertwo');
+	}
+// ===========================================================//
+// WhoClicked
+// Unsure of syntax for event handler to get sibling of Column // button (square) and its child (circle).
+	const whoClicked = (event) => {
+		console.log('who clicked');
+		if (game % 2 === 0) {
+			$(this).siblings('div.square').children('div.circle').css('background-color', 'red');
+		} else {
+			$(this).siblings('div.square').children('div.circle').css('background-color', 'gold');
+		}
+	};
+
+
+// youWin
+	const youWin = () => {
+		console.log('you win');
+	};
+// play again/restart
+	const restart = () => {
+		console.log('restart');
+	};
+
+// ==========================================================//
 // create click rules for each column
 // column 1 click rules
 // added gameClicks function
@@ -338,32 +368,6 @@ $(() => {
 			youWin();
 			restart();
 		}
-	};
-// ============================================//
-	const playerOne = () => {
-		console.log('playerone');
-	}
-	const playerTwo = () => {
-		console.log('playertwo');
-	}
-// WhoClicked
-	const whoClicked = (event) => {
-		console.log('who clicked');
-		if (game % 2 === 0) {
-			$(event.currentTarget).css('background-color', 'red');
-		} else {
-			$(event.currentTarget).css('background-color', 'gold');
-		}
-	};
-
-
-// youWin
-	const youWin = () => {
-		console.log('you win');
-	};
-// restart
-	const restart = () => {
-		console.log('restart');
 	};
 // ==============================================//
 // column buttons
