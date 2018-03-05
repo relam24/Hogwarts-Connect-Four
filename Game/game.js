@@ -61,9 +61,12 @@ $(() => {
 			[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE],
 			[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]
 		];
-		// for (let i = 0; i <= arrayRowColumn.length; i++) {
-		// 	console.log(arrayRowColumn[i]);
-		// }
+		for (let i = 0; i <= arrayRowColumn.length; i++) {
+			console.log(arrayRowColumn[i]);
+			for (let j = 0; j <= arrayRowColumn[i].length; j++) {
+				console.log(arrayRowColumn[j]);
+			}
+		}
 	};
 // play again/restart
 	const restart = () => {
