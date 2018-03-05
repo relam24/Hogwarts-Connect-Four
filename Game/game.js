@@ -23,7 +23,8 @@ $(() => {
 // set timeout for two seconds
  // setTimeout(openModal, 2000);
 	// end of Modal
-// ===============================================================//
+// ==============================================//
+// ============================================//
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
 		console.log('playerone');
@@ -50,7 +51,7 @@ $(() => {
 		}
 	};
 
-// youWin
+// youWin =======================================//
 // make an array of rows and columns?
 	const youWin = () => {
 		const arrayRowColumn = [
@@ -61,12 +62,11 @@ $(() => {
 			[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE],
 			[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]
 		];
-		// for (let i = 0; i <= arrayRowColumn.length; i++) {
-		// 	console.log(arrayRowColumn[i]);
-		// 	for (let j = 0; j <= arrayRowColumn[i].length; j++) {
-		// 		console.log(arrayRowColumn[j]);
-		// 	}
-		// }
+		for (row of arrayRowColumn) {
+			for (element of row) {
+				console.log(element);
+			}
+		}
 	};
 
 // ==========================================================//
@@ -346,8 +346,7 @@ $(() => {
 // ==============================================//
 // play again/restart
 // set click listener for first called function
-	const $restart = $('.restart');
-	$restart.on('click', columnOneClick);
+
 // ===============================================//
 // grab rows
 	const $rowA = $('.rowA');
@@ -480,5 +479,5 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
-
+	// start();
 });
