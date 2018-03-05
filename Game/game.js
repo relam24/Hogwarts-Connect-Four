@@ -39,6 +39,7 @@ $(() => {
 		for (let column = 1; column < columnArray.length; column++) {
 			console.log(columnArray[column]);
 		}
+		verticalWin();
 	};
 	// checking row
 
@@ -61,8 +62,10 @@ $(() => {
 	};
 // youWin =======================================//
 // win state
-	const verticalWin = () => {
-
+	const verticalWin = (clickCircle, color) => {
+		if ($(this).val(color) === 4) {
+			alert ('You Win!!')
+		}
 	};
 // ==========================================================//
 // create click rules for each column
