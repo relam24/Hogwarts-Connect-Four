@@ -33,14 +33,15 @@ $(() => {
 	}
 
 	// =======================================//
-	// checking if circle is red, gold, or unfilled.
+	// checking column
 	const verticalCheck = (clickCircle, color) => {
-		const circleCheck = clickCircle.parent().siblings().children();
-		console.log(clickCircle.parent().siblings().children());
-		for (let column = 1; column < circleCheck.length; column++ ){
-			circleCheck[column].hasClass(color);
+		const columnArray = clickCircle.parent().siblings().children();
+		for (let column = 1; column < columnArray.length; column++) {
+			console.log(columnArray[column]);
 		}
 	};
+	// checking row
+
 // ==================================================//
 // added event listener to check vertically.
 // WhoClicked
