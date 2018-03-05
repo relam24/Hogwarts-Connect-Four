@@ -23,8 +23,6 @@ $(() => {
 // set timeout for two seconds
  // setTimeout(openModal, 1000);
 	// end of Modal
-// ==============================================//
-
 // ============================================//
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
@@ -33,63 +31,37 @@ $(() => {
 	const playerTwo = () => {
 		console.log('playertwo');
 	}
-// ==================================================//
-// Unsure of syntax for event handler to get sibling of Column // button (square) and its child (circle).
-// variable of event listener
-	// const $squareParent = $(this > 'div.square');
-	// const $circleChild = $('div.square' > 'div circle');
 
-// added event listener for win state
+	// =======================================//
+	// checking if circle is red, gold, or unfilled.
+	const verticalCheck = (clickCircle, color) => {
+		const circleCheck = clickCircle.parent().siblings().children();
+		console.log(clickCircle.parent().siblings().children());
+		for (let column = 1; column < circleCheck.length; column++ ){
+			circleCheck[column].hasClass(color);
+		}
+	};
+// ==================================================//
+// added event listener to check vertically.
 // WhoClicked
 	const whoClicked = (clickCircle) => {
 		console.log('who clicked');
 		if (game % 2 === 0) {
 			clickCircle.css('background-color', 'red');
-			youWin();
+			console.log('red');
+			clickCircle.addClass('red');
+			verticalCheck(clickCircle, 'red');
 		} else {
 			clickCircle.css('background-color', 'gold');
-			youWin();
+			console.log('gold');
+			clickCircle.addClass('gold');
+			verticalCheck(clickCircle, 'gold');
 		}
 	};
-
 // youWin =======================================//
-// make an array of rows
-	const youWin = () => {
-		const arrayRow = [
-	// [0]
-			[[$column1, $rowA], [$column2, $rowA], [$column3, $rowA], [$column4, $rowA], [$column5, $rowA], [$column6, $rowA]],
-	// [1]
-			[[$column1, $rowB], [$column2, $rowB], [$column3, $rowB], [$column4, $rowB], [$column5, $rowB], [$column6, $rowB]],
-	// [2]
-			[[$column1, $rowC], [$column2, $rowC], [$column3, $rowC], [$column4, $rowC], [$column5, $rowC], [$column6, $rowC]],
-	// [3]
-			[[$column1, $rowD], [$column2, $rowD], [$column3, $rowD], [$column4, $rowD], [$column5, $rowD], [$column6, $rowD]],
-	// [4]
-			[[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE]],
-	// [5]
-			[[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]]
-		];
-		for (let row = 0; row <= arrayRow.length; row++) {
-			console.log(arrayRow[row]);
-		}
-// make an array of columnSixClick ========//
-				const arrayColumn = [
-				// [0]
-			[[$column1, $rowA], [$column1, $rowB], [$column1, $rowC], [$column1, $rowD], [$column1, $rowE], [$column1, $rowF]],
-				// [1]
-			[[$column2, $rowA], [$column2, $rowB], [$column2, $rowC], [$column2, $rowD], [$column2, $rowE], [$column2, $rowF]],
-				// [2]
-			[[$column3, $rowA], [$column3, $rowB], [$column3, $rowC], [$column3, $rowD], [$column3, $rowE], [$column3, $rowF]],
-				// [3]
-			[[$column4, $rowA], [$column4, $rowB], [$column4, $rowC], [$column4, $rowD], [$column4, $rowE], [$column4, $rowF]],
-				// [4]
-			[[$column5, $rowA], [$column5, $rowB], [$column5, $rowC], [$column5, $rowD], [$column5, $rowE], [$column5, $rowF]],
-				// [5]
-			[[$column6, $rowA], [$column6, $rowB], [$column6, $rowC], [$column6, $rowD], [$column6, $rowE], [$column6, $rowF]]
-				];
-		for (let column = 0; column <= arrayColumn.length; column++) {
-			console.log(arrayColumn[column]);
-		}
+// win state
+	const verticalWin = () => {
+
 	};
 // ==========================================================//
 // create click rules for each column
@@ -471,4 +443,7 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
+// grab arrays
+		const $rowArray = [$rowA, $rowB, $rowC, $rowD, $rowE, $rowF];
+		const $columnArray = [$column1, $column2, $column3, $column4, $column5, $column6];
 });
