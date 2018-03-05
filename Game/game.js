@@ -24,6 +24,7 @@ $(() => {
  // setTimeout(openModal, 2000);
 	// end of Modal
 // ==============================================//
+
 // ============================================//
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
@@ -68,7 +69,6 @@ $(() => {
 			}
 		}
 	};
-
 // ==========================================================//
 // create click rules for each column
 // column 1 click rules
@@ -457,6 +457,12 @@ $(() => {
 	// grab circle
 	const $circle = $('.circle');
 // =========================================//
+// reset/start
+	const $reset = $('.reset');
+	$reset.click(function () {
+		document.location.reload(true);
+	});
+// =====================================//
 // grab column1 div
 // create click event
 // send to function
@@ -479,5 +485,4 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
-	// start();
 });
