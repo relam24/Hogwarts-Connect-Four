@@ -36,18 +36,18 @@ $(() => {
 // ==================================================//
 // Unsure of syntax for event handler to get sibling of Column // button (square) and its child (circle).
 // variable of event listener
-	const $squareParent = $(this > 'div.square');
-	const $circleChild = $('div.square' > 'div circle');
+	// const $squareParent = $(this > 'div.square');
+	// const $circleChild = $('div.square' > 'div circle');
 
 // added event listener for win state
 // WhoClicked
-	const whoClicked = (event) => {
+	const whoClicked = (clickCircle) => {
 		console.log('who clicked');
 		if (game % 2 === 0) {
-			$circleChild.css('background-color', 'red');
+			clickCircle.css('background-color', 'red');
 			youWin();
 		} else {
-			$circleChild.css('background-color', 'gold');
+			clickCircle.css('background-color', 'gold');
 			youWin();
 		}
 	};
@@ -78,28 +78,22 @@ $(() => {
 		console.log('column1');
 		click1++;
 		if (click1 === 1) {
-			$(event.currentTarget).append($circle1F);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1F));
 			gameClicks();
 		} else if (click1 === 2) {
-			$(event.currentTarget).append($circle1E);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1E));
 			gameClicks();
 		} else if (click1 === 3) {
-			$(event.currentTarget).append($circle1D);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1D));
 			gameClicks();
 		} else if (click1 === 4) {
-			$(event.currentTarget).append($circle1C);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1C));
 			gameClicks();
 		} else if (click1 === 5) {
-			$(event.currentTarget).append($circle1B);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1B));
 			gameClicks();
 		} else if (click1 === 6) {
-			$(event.currentTarget).append($circle1A);
-			$column1button.on('click', whoClicked);
+			$column1button.on('click', whoClicked($circle1A));
 			gameClicks();
 		}
 	};
@@ -110,28 +104,22 @@ $(() => {
 		console.log('column2');
 		click2++;
 		if (click2 === 1) {
-			$(event.currentTarget).append($circle2F);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2F));
 			gameClicks();
 		} else if (click2 === 2) {
-			$(event.currentTarget).append($circle2E);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2E));
 			gameClicks();
 		} else if (click2 === 3) {
-			$(event.currentTarget).append($circle2D);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2D));
 			gameClicks();
 		} else if (click2 === 4) {
-			$(event.currentTarget).append($circle2C);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2C));
 			gameClicks();
 		} else if (click2 === 5) {
-			$(event.currentTarget).append($circle2B);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2B));
 			gameClicks();
 		} else if (click2 === 6) {
-			$(event.currentTarget).append($circle2A);
-			$column2button.on('click', whoClicked);
+			$column2button.on('click', whoClicked($circle2A));
 			gameClicks();
 		}
 	};
@@ -142,28 +130,22 @@ $(() => {
 		console.log('column3');
 		click3++;
 		if (click3 === 1) {
-			$(event.currentTarget).append($circle3F);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3F));
 			gameClicks();
 		} else if (click3 === 2) {
-			$(event.currentTarget).append($circle3E);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3E));
 			gameClicks();
 		} else if (click3 === 3) {
-			$(event.currentTarget).append($circle3D);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3D));
 			gameClicks();
 		} else if (click3 === 4) {
-			$(event.currentTarget).append($circle3C);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3C));
 			gameClicks();
 		} else if (click3 === 5) {
-			$(event.currentTarget).append($circle3B);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3B));
 			gameClicks();
 		} else if (click3 === 6) {
-			$(event.currentTarget).append($circle3A);
-			$column3button.on('click', whoClicked);
+			$column3button.on('click', whoClicked($circle3A));
 			gameClicks();
 		}
 	};
@@ -174,28 +156,22 @@ $(() => {
 		console.log('column4');
 		click4++;
 		if (click4 === 1) {
-			$(event.currentTarget).append($circle4F);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4F));
 			gameClicks();
 		} else if (click4 === 2) {
-			$(event.currentTarget).append($circle4E);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4E));
 			gameClicks();
 		} else if (click4 === 3) {
-			$(event.currentTarget).append($circle4D);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4D));
 			gameClicks();
 		} else if (click4 === 4) {
-			$(event.currentTarget).append($circle4C);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4C));
 			gameClicks();
 		} else if (click4 === 5) {
-			$(event.currentTarget).append($circle4B);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4B));
 			gameClicks();
 		} else if (click4 === 6) {
-			$(event.currentTarget).append($circle4A);
-			$column4button.on('click', whoClicked);
+			$column4button.on('click', whoClicked($circle4A));
 			gameClicks();
 		}
 	};
@@ -206,28 +182,22 @@ $(() => {
 		console.log('column5');
 		click5++;
 		if (click5 === 1) {
-			$(event.currentTarget).append($circle5F);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5F));
 			gameClicks();
 		} else if (click5 === 2) {
-			$(event.currentTarget).append($circle5E);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5E));
 			gameClicks();
 		} else if (click5 === 3) {
-			$(event.currentTarget).append($circle5D);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5D));
 			gameClicks();
 		} else if (click5 === 4) {
-			$(event.currentTarget).append($circle5C);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5C));
 			gameClicks();
 		} else if (click5 === 5) {
-			$(event.currentTarget).append($circle5B);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5B));
 			gameClicks();
 		} else if (click5 === 6) {
-			$(event.currentTarget).append($circle5A);
-			$column5button.on('click', whoClicked);
+			$column5button.on('click', whoClicked($circle5A));
 			gameClicks();
 		}
 	};
@@ -238,28 +208,22 @@ $(() => {
 		console.log('column6');
 		click6++;
 		if (click6 === 1) {
-			$(event.currentTarget).append($circle6F);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6F));
 			gameClicks();
 		} else if (click6 === 2) {
-			$(event.currentTarget).append($circle6E);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6E));
 			gameClicks();
 		} else if (click6 === 3) {
-			$(event.currentTarget).append($circle6D);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6D));
 			gameClicks();
 		} else if (click6 === 4) {
-			$(event.currentTarget).append($circle6C);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6C));
 			gameClicks();
 		} else if (click6 === 5) {
-			$(event.currentTarget).append($circle6B);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6B));
 			gameClicks();
 		} else if (click6 === 6) {
-			$(event.currentTarget).append($circle6A);
-			$column6button.on('click', whoClicked);
+			$column6button.on('click', whoClicked($circle6A));
 			gameClicks();
 		}
 	};
