@@ -53,9 +53,9 @@ $(() => {
 	};
 
 // youWin =======================================//
-// make an array of rows and columns?
+// make an array of rows
 	const youWin = () => {
-		const arrayRowColumn = [
+		const arrayRow = [
 	// [0]
 			[[$column1, $rowA], [$column2, $rowA], [$column3, $rowA], [$column4, $rowA], [$column5, $rowA], [$column6, $rowA]],
 	// [1]
@@ -69,10 +69,30 @@ $(() => {
 	// [5]
 			[[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]]
 		];
-		for (row of arrayRowColumn) {
+		for (row of arrayRow) {
 			for (element of row) {
-				// console.log(element);
-				console.log(arrayRowColumn[0]);
+				console.log(element);
+		// console.log(arrayRow[0]);
+// make an array of columnSixClick ========//
+				const arrayColumn = [
+				// [0]
+			[[$column1, $rowA], [$column1, $rowB], [$column1, $rowC], [$column1, $rowD], [$column1, $rowE], [$column1, $rowF]],
+				// [1]
+			[[$column2, $rowA], [$column2, $rowB], [$column2, $rowC], [$column2, $rowD], [$column2, $rowE], [$column2, $rowF]],
+				// [2]
+			[[$column3, $rowA], [$column3, $rowB], [$column3, $rowC], [$column3, $rowD], [$column3, $rowE], [$column3, $rowF]],
+				// [3]
+			[[$column4, $rowA], [$column4, $rowB], [$column4, $rowC], [$column4, $rowD], [$column4, $rowE], [$column4, $rowF]],
+				// [4]
+			[[$column5, $rowA], [$column5, $rowB], [$column5, $rowC], [$column5, $rowD], [$column5, $rowE], [$column5, $rowF]],
+				// [5]
+			[[$column6, $rowA], [$column6, $rowB], [$column6, $rowC], [$column6, $rowD], [$column6, $rowE], [$column6, $rowF]]
+		];
+				for (row of arrayColumn) {
+					for (element of row) {
+						console.log(element);
+			}
+		}
 			}
 		}
 	};
