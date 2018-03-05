@@ -31,18 +31,24 @@ $(() => {
 	const playerTwo = () => {
 		console.log('playertwo');
 	}
-// ===========================================================//
-// WhoClicked
+// ==================================================//
 // Unsure of syntax for event handler to get sibling of Column // button (square) and its child (circle).
+// variable of event listener
+	const $squareParent = $(this > 'div.square');
+	const $circleChild = $('div.square' > 'div circle');
+
+// added event listener for win state
+// WhoClicked
 	const whoClicked = (event) => {
 		console.log('who clicked');
 		if (game % 2 === 0) {
-			$(this).siblings('div.square').children('div.circle').css('background-color', 'red');
+			$circleChild.css('background-color', 'red');
+			youWin();
 		} else {
-			$(this).siblings('div.square').children('div.circle').css('background-color', 'gold');
+			$circleChild.css('background-color', 'gold');
+			youWin();
 		}
 	};
-
 
 // youWin
 	const youWin = () => {
@@ -261,112 +267,70 @@ $(() => {
 			playerOne();
 		} else if (game === 4) {
 			playerTwo();
-			youWin();
 		} else if (game === 5) {
 			playerOne();
-			youWin();
 		} else if (game === 6) {
 			playerTwo();
-			youWin();
 		} else if (game === 7) {
 			playerOne();
-			youWin();
 		} else if (game === 8) {
 			playerTwo();
-			youWin();
 		} else if (game === 9) {
 			playerOne();
-			youWin();
 		} else if (game === 10) {
 			playerTwo();
-			youWin();
 		} else if (game === 11) {
 			playerOne();
-			youWin();
 		} else if (game === 12) {
 			playerTwo();
-			youWin();
 		} else if (game === 13) {
 			playerOne();
-			youWin();
 		} else if (game === 14) {
 			playerTwo();
-			youWin();
 		} else if (game === 15) {
 			playerOne();
-			youWin();
 		} else if (game === 16) {
 			playerTwo();
-			youWin();
 		} else if (game === 17) {
 			playerOne();
-			youWin();
 		} else if (game === 18) {
 			playerTwo();
-			youWin();
 		} else if (game === 19) {
 			playerOne();
-			youWin();
 		} else if (game === 20) {
 			playerTwo();
-			youWin();
 		} else if (game === 21) {
 			playerOne();
-			youWin();
 		} else if (game === 22) {
 			playerTwo();
-			youWin();
 		} else if (game === 23) {
 			playerOne();
-			youWin();
 		} else if (game === 24) {
 			playerTwo();
-			youWin();
 		} else if (game === 25) {
 			playerOne();
-			youWin();
 		} else if (game === 26) {
 			playerTwo();
-			youWin();
 		} else if (game === 27) {
 			playerOne();
-			youWin();
 		} else if (game === 28) {
 			playerTwo();
-			youWin();
-			restart();
 		} else if (game === 29) {
 			playerOne();
-			youWin();
-			restart();
 		} else if (game === 30) {
 			playerTwo();
-			youWin();
-			restart();
 		} else if (game === 31) {
 			playerOne();
-			youWin();
-			restart();
 		} else if (game === 32) {
 			playerTwo();
-			youWin();
-			restart();
 		} else if (game === 33) {
 			playerOne();
-			youWin();
-			restart();
 		} else if (game === 34) {
 			playerTwo();
-			youWin();
-			restart();
 		} else if (game === 35) {
 			playerOne();
-			youWin();
-			restart();
 		} else if (game === 36) {
 			playerTwo();
-			youWin();
-			restart();
 		}
 	};
 // ==============================================//
