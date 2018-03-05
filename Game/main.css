@@ -69,16 +69,16 @@ header {
 }
 
 .reset {
-	display: flex;
-	flex-direction: column;
+	/* display: flex;
+	flex-direction: column; */
 	background-color: rgb(72, 0, 0);
 	color: gold;
 	font-family: 'IM Fell English SC', serif;
 	font-size: 8px;
 	border-radius: 5px;
-	position: absolute;
-	top: 29%;
-	right: 27%
+	position: fixed;
+	bottom: 0%;
+	right: 0%
 }
 
 .welcome {

@@ -56,16 +56,23 @@ $(() => {
 // make an array of rows and columns?
 	const youWin = () => {
 		const arrayRowColumn = [
-			[$column1, $rowA], [$column2, $rowA], [$column3, $rowA], [$column4, $rowA], [$column5, $rowA], [$column6, $rowA],
-			[$column1, $rowB], [$column2, $rowB], [$column3, $rowB], [$column4, $rowB], [$column5, $rowB], [$column6, $rowB],
-			[$column1, $rowC], [$column2, $rowC], [$column3, $rowC], [$column4, $rowC], [$column5, $rowC], [$column6, $rowC],
-			[$column1, $rowD], [$column2, $rowD], [$column3, $rowD], [$column4, $rowD], [$column5, $rowD], [$column6, $rowD],
-			[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE],
-			[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]
+	// [0]
+			[[$column1, $rowA], [$column2, $rowA], [$column3, $rowA], [$column4, $rowA], [$column5, $rowA], [$column6, $rowA]],
+	// [1]
+			[[$column1, $rowB], [$column2, $rowB], [$column3, $rowB], [$column4, $rowB], [$column5, $rowB], [$column6, $rowB]],
+	// [2]
+			[[$column1, $rowC], [$column2, $rowC], [$column3, $rowC], [$column4, $rowC], [$column5, $rowC], [$column6, $rowC]],
+	// [3]
+			[[$column1, $rowD], [$column2, $rowD], [$column3, $rowD], [$column4, $rowD], [$column5, $rowD], [$column6, $rowD]],
+	// [4]
+			[[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE]],
+	// [5]
+			[[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]]
 		];
 		for (row of arrayRowColumn) {
 			for (element of row) {
-				console.log(element);
+				// console.log(element);
+				console.log(arrayRowColumn[0]);
 			}
 		}
 	};
