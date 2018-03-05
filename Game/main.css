@@ -23,7 +23,7 @@ header {
 	background-size: 100% 100%;
 	background-color: rgb(18, 17, 18);
 	position: absolute;
-	top: 64%;
+	top: 62%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	height: 67%;
@@ -79,8 +79,6 @@ header {
 	position: absolute;
 	top: 29%;
 	right: 27%
-
-
 }
 
 .welcome {
