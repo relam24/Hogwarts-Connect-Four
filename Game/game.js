@@ -69,10 +69,9 @@ $(() => {
 	// [5]
 			[[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]]
 		];
-		for (row of arrayRow) {
-			for (element of row) {
-				console.log(element);
-		// console.log(arrayRow[0]);
+		for (let row = 0; row <= arrayRow.length; row++) {
+			console.log(arrayRow[row]);
+		}
 // make an array of columnSixClick ========//
 				const arrayColumn = [
 				// [0]
@@ -87,13 +86,9 @@ $(() => {
 			[[$column5, $rowA], [$column5, $rowB], [$column5, $rowC], [$column5, $rowD], [$column5, $rowE], [$column5, $rowF]],
 				// [5]
 			[[$column6, $rowA], [$column6, $rowB], [$column6, $rowC], [$column6, $rowD], [$column6, $rowE], [$column6, $rowF]]
-		];
-				for (row of arrayColumn) {
-					for (element of row) {
-						console.log(element);
-			}
-		}
-			}
+				];
+		for (let column = 0; column <= arrayColumn.length; column++) {
+			console.log(arrayColumn[column]);
 		}
 	};
 // ==========================================================//
