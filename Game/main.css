@@ -19,6 +19,7 @@ header {
 	align-items: center;
 	justify-content: center;
 	background-image: url(https://images.pottermore.com/bxd3o8b291gf/3hollgS5QIcaUmoAWMsMEC/0ab7c45e0842488acdce82a76f6a7123/Hogwarts_PM_B4C37M1_GreatHallMourningCedricsDeath_Moment.jpg?w=1200);
+	background-repeat: no-repeat;
 	background-color: rgb(18, 17, 18);
 	position: fixed;
 	top: 71%;
@@ -32,9 +33,13 @@ header {
 	border-radius: 8px;
 	border: 1px solid;
 	border-color: rgb(251,227,185);
+
+
 }
 
 #modal-textbox {
+	display: flex;
+	flex-direction: column;
 	color: rgb(251,227,185);
 	height: 340px;
 	width: 530px;
@@ -47,6 +52,8 @@ header {
 	justify-content: center;
 	text-align: center;
 	border-radius: 8px;
+
+
 }
 
 #openModal {
