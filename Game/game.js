@@ -51,8 +51,19 @@ $(() => {
 	};
 
 // youWin
+// make an array of rows and columns?
 	const youWin = () => {
-		console.log('you win');
+		const arrayRowColumn = [
+			[$column1, $rowA], [$column2, $rowA], [$column3, $rowA], [$column4, $rowA], [$column5, $rowA], [$column6, $rowA],
+			[$column1, $rowB], [$column2, $rowB], [$column3, $rowB], [$column4, $rowB], [$column5, $rowB], [$column6, $rowB],
+			[$column1, $rowC], [$column2, $rowC], [$column3, $rowC], [$column4, $rowC], [$column5, $rowC], [$column6, $rowC],
+			[$column1, $rowD], [$column2, $rowD], [$column3, $rowD], [$column4, $rowD], [$column5, $rowD], [$column6, $rowD],
+			[$column1, $rowE], [$column2, $rowE], [$column3, $rowE], [$column4, $rowE], [$column5, $rowE], [$column6, $rowE],
+			[$column1, $rowF], [$column2, $rowF], [$column3, $rowF], [$column4, $rowF], [$column5, $rowF], [$column6, $rowF]
+		];
+		// for (let i = 0; i <= arrayRowColumn.length; i++) {
+		// 	console.log(arrayRowColumn[i]);
+		// }
 	};
 // play again/restart
 	const restart = () => {
@@ -334,49 +345,56 @@ $(() => {
 		}
 	};
 // ==============================================//
+//grab rows
+	const $rowA = $('.rowA');
+	const $rowB = $('.rowB');
+	const $rowC = $('.rowC');
+	const $rowD = $('.rowD');
+	const $rowE = $('.rowE');
+	const $rowF = $('.rowF');
 // grab squares
 // column 1 squares
-	const $square1A = $('#square1A');
-	const $square1B = $('#square1A');
-	const $square1C = $('#square1A');
-	const $square1D = $('#square1A');
-	const $square1E = $('#square1A');
-	const $square1F = $('#square1A');
+	const $square1A = $('#square1A').addClass('.rowA');
+	const $square1B = $('#square1B').addClass('.rowB');
+	const $square1C = $('#square1C').addClass('.rowC');
+	const $square1D = $('#square1D').addClass('.rowD');
+	const $square1E = $('#square1E').addClass('.rowE');
+	const $square1F = $('#square1F').addClass('.rowF');
 // column 2 squares
-	const $square2A = $('#square2A');
-	const $square2B = $('#square2B');
-	const $square2C = $('#square2C');
-	const $square2D = $('#square2D');
-	const $square2E = $('#square2E');
-	const $square2F = $('#square2F');
+	const $square2A = $('#square2A').addClass('.rowA');
+	const $square2B = $('#square2B').addClass('.rowB');
+	const $square2C = $('#square2C').addClass('.rowC');
+	const $square2D = $('#square2D').addClass('.rowD');
+	const $square2E = $('#square2E').addClass('.rowE');
+	const $square2F = $('#square2F').addClass('.rowF');
 // column 3 squares
-	const $square3A = $('#square3A');
-	const $square3B = $('#square3B');
-	const $square3C = $('#square3C');
-	const $square3D = $('#square3D');
-	const $square3E = $('#square3E');
-	const $square3F = $('#square3F');
+	const $square3A = $('#square3A').addClass('.rowA');
+	const $square3B = $('#square3B').addClass('.rowB');
+	const $square3C = $('#square3C').addClass('.rowC');
+	const $square3D = $('#square3D').addClass('.rowD');
+	const $square3E = $('#square3E').addClass('.rowE');
+	const $square3F = $('#square3F').addClass('.rowF');
 // column 4 squares
-	const $square4A = $('#square4A');
-	const $square4B = $('#square4B');
-	const $square4C = $('#square4C');
-	const $square4D = $('#square4D');
-	const $square4E = $('#square4E');
-	const $square4F = $('#square4F');
+	const $square4A = $('#square4A').addClass('.rowA');
+	const $square4B = $('#square4B').addClass('.rowB');
+	const $square4C = $('#square4C').addClass('.rowC');
+	const $square4D = $('#square4D').addClass('.rowD');
+	const $square4E = $('#square4E').addClass('.rowE');
+	const $square4F = $('#square4F').addClass('.rowF');
 // column 5 squares
-	const $square5A = $('#square5A');
-	const $square5B = $('#square5B');
-	const $square5C = $('#square5C');
-	const $square5D = $('#square5D');
-	const $square5E = $('#square5E');
-	const $square5F = $('#square5F');
+	const $square5A = $('#square5A').addClass('.rowA');
+	const $square5B = $('#square5B').addClass('.rowB');
+	const $square5C = $('#square5C').addClass('.rowC');
+	const $square5D = $('#square5D').addClass('.rowD');
+	const $square5E = $('#square5E').addClass('.rowE');
+	const $square5F = $('#square5F').addClass('.rowF');
 // column 6 squares
-	const $square6A = $('#square6A');
-	const $square6B = $('#square6B');
-	const $square6C = $('#square6C');
-	const $square6D = $('#square6D');
-	const $square6E = $('#square6E');
-	const $square6F = $('#square6F');
+	const $square6A = $('#square6A').addClass('.rowA');
+	const $square6B = $('#square6B').addClass('.rowB');
+	const $square6C = $('#square6C').addClass('.rowC');
+	const $square6D = $('#square6D').addClass('.rowD');
+	const $square6E = $('#square6E').addClass('.rowE');
+	const $square6F = $('#square6F').addClass('.rowF');
 
 // column buttons
 	const $column1button = $('.column1button');
