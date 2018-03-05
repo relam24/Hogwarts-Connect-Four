@@ -21,7 +21,7 @@ $(() => {
 	$openButton.on('click', openModal);
 	$closeButton.on('click', closeModal);
 // set timeout for two seconds
- // setTimeout(openModal, 1000);
+ // setTimeout(openModal, 2000);
 	// end of Modal
 // ============================================//
 // playerOne playerTwo and who clicked function
