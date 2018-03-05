@@ -337,8 +337,8 @@ footer {
 	width: 70px;
 }
 
-/* .threebroomsticks {
-	display:block;
-	width: 1000px;
-	height: 500px;
-} */
+.threebroomsticks {
+	display:inline-block;
+	height: 40px;
+	width: 2000px;
+}
