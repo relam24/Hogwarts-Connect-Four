@@ -334,6 +334,50 @@ $(() => {
 		}
 	};
 // ==============================================//
+// grab squares
+// column 1 squares
+	const $square1A = $('#square1A');
+	const $square1B = $('#square1A');
+	const $square1C = $('#square1A');
+	const $square1D = $('#square1A');
+	const $square1E = $('#square1A');
+	const $square1F = $('#square1A');
+// column 2 squares
+	const $square2A = $('#square2A');
+	const $square2B = $('#square2B');
+	const $square2C = $('#square2C');
+	const $square2D = $('#square2D');
+	const $square2E = $('#square2E');
+	const $square2F = $('#square2F');
+// column 3 squares
+	const $square3A = $('#square3A');
+	const $square3B = $('#square3B');
+	const $square3C = $('#square3C');
+	const $square3D = $('#square3D');
+	const $square3E = $('#square3E');
+	const $square3F = $('#square3F');
+// column 4 squares
+	const $square4A = $('#square4A');
+	const $square4B = $('#square4B');
+	const $square4C = $('#square4C');
+	const $square4D = $('#square4D');
+	const $square4E = $('#square4E');
+	const $square4F = $('#square4F');
+// column 5 squares
+	const $square5A = $('#square5A');
+	const $square5B = $('#square5B');
+	const $square5C = $('#square5C');
+	const $square5D = $('#square5D');
+	const $square5E = $('#square5E');
+	const $square5F = $('#square5F');
+// column 6 squares
+	const $square6A = $('#square6A');
+	const $square6B = $('#square6B');
+	const $square6C = $('#square6C');
+	const $square6D = $('#square6D');
+	const $square6E = $('#square6E');
+	const $square6F = $('#square6F');
+
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');
