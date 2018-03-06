@@ -49,22 +49,209 @@ $(() => {
 		fourTheWin(arrColor);
 	};
 // =================================================================
+// functions redWin and goldWin
+	const redWin = (arrColor) => {
+		console.log('redwin function');
+		if (arrColor.$red === 4) {
+			console.log('redWin!');
+		}
+	};
+	const goldWin = (arrColor) => {
+		console.log('goldwin function');
+		if (arrColor.$gold === 4) {
+			console.log('goldWin');
+		}
+	};
+// ====================================================================== //
 // for the win
+// VERTICAL
 // each columnone
 	const fourTheWin = (arrColor) => {
 		console.log(arrColor);
-		const arr1 = () => {
 		for (let arr = 0; arr < arrColor.length; arr++) {
+			// columnOneWinOne
 			for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
-				if (arrColor[arr].$red === $columnOneWinOne[arrColumn].$red === 4) {
-					console.log('red wins');
-				} else if (arrColor[arr].$gold === $columnOneWinOne[arrColumn].$gold === 4) {
-					console.log('gold wins');
+				if (arrColor[arr].$red === $columnOneWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnOneWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
 				}
 			}
-		}
+			// columnOneWinTwo
+			for (let arrColumn = 0; arrColumn < $columnOneWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnOneWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnOneWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnOneWinThree
+			for (let arrColumn = 0; arrColumn < $columnOneWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnOneWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnTwoWinOne
+			for (let arrColumn = 0; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnTwoWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnTwoWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnTwoWinTwo
+			for (let arrColumn = 0; arrColumn < $columnTwoWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnTwoWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnTwoWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnTwoWinThree
+			for (let arrColumn = 0; arrColumn < $columnTwoWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnTwoWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnTwoWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnThreeWinOne
+			for (let arrColumn = 0; arrColumn < $columnThreeWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnThreeWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnThreeWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnThreeWinTwo
+			for (let arrColumn = 0; arrColumn < $columnThreeWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnThreeWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnThreeWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnThreeWinThree
+			for (let arrColumn = 0; arrColumn < $columnThreeWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnThreeWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnThreeWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFourWinOne
+			for (let arrColumn = 0; arrColumn < $columnFourWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFourWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFourWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFourWinTwo
+			for (let arrColumn = 0; arrColumn < $columnFourWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFourWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFourWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFourWinThree
+			for (let arrColumn = 0; arrColumn < $columnFourWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFourWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFourWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFiveWinOne
+			for (let arrColumn = 0; arrColumn < $columnFiveWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFiveWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFiveWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFiveWinTwo
+			for (let arrColumn = 0; arrColumn < $columnFiveWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFiveWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFiveWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnFiveWinThree
+			for (let arrColumn = 0; arrColumn < $columnFiveWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnFiveWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnFiveWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnSixWinOne
+			for (let arrColumn = 0; arrColumn < $columnSixWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnSixWinOne[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnSixWinOne[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnSixWinTwo
+			for (let arrColumn = 0; arrColumn < $columnSixWinTwo.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnSixWinTwo[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnSixWinTwo[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
+			// columnThreeWinThree
+			for (let arrColumn = 0; arrColumn < $columnSixWinThree.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnSixWinThree[arrColumn].$red) {
+					console.log('red');
+					redWin(arrColor);
+				} else if (arrColor[arr].$gold === $columnSixWinThree[arrColumn].$gold) {
+					console.log('gold');
+					goldWin(arrColor);
+				}
+			}
 		};
 	};
+
 // =====================================
 // added event listener to check vertically.
 // WhoClicked
@@ -328,13 +515,6 @@ $(() => {
 // take red and gold class and turn them into jquery objects
 	const $red = $('.red');
 	const $gold = $('.gold');
-// grab rows
-	const $rowA = $('.rowA');
-	const $rowB = $('.rowB');
-	const $rowC = $('.rowC');
-	const $rowD = $('.rowD');
-	const $rowE = $('.rowE');
-	const $rowF = $('.rowF');
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');
@@ -386,13 +566,6 @@ $(() => {
 	const $circle6E = $('#circle6E');
 	const $circle6F = $('#circle6F');
 // =========================================//
-// grab container div
-	const $container = $('.container');
-// grab gameboard div
-	const $gameboard = $('.gameboard');
-	// grab circle
-	const $circle = $('.circle');
-// =========================================//
 // reset/start
 	const $reset = $('.reset');
 	$reset.click(function () {
@@ -437,21 +610,15 @@ $(() => {
 	const $columnThreeWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
 	const $columnThreeWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
 // column 4
-const $columnFourWinOne = [$circle4A, $circle4B, $circle4C, $circle4D];
-const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
-const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
+	const $columnFourWinOne = [$circle4A, $circle4B, $circle4C, $circle4D];
+	const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
+	const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
 // column 5
-const $columnFiveWinOne = [$circle5A, $circle5B, $circle5C, $circle5D];
-const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
-const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
+	const $columnFiveWinOne = [$circle5A, $circle5B, $circle5C, $circle5D];
+	const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
+	const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
 // column 6
-const $columnSixWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
-const $columnSixWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
-const $columnSixWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
-
-
-
-
-
-
+	const $columnSixWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
+	const $columnSixWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
+	const $columnSixWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
 });
