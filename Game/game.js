@@ -54,13 +54,13 @@ $(() => {
 	const redWin = (arrColor) => {
 		console.log('redwin function');
 		if (arrColor.$red === 4) {
-			console.log('redWin!');
+			console.log('red!');
 		}
 	};
 	const goldWin = (arrColor) => {
 		console.log('gold win function');
 		if (arrColor.$gold === 4) {
-			console.log('goldWin');
+			console.log('gold!');
 		}
 	};
 // ====================================================================== //
