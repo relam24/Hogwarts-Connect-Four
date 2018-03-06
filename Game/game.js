@@ -38,7 +38,7 @@ $(() => {
 		const columnArray = clickCircle.parent().siblings().children();
 		let arr1 = [];
 		let arr2 = [];
-		for (let column = 1; column < columnArray.length; column++) {
+		for (let column = 0; column < columnArray.length; column++) {
 			if ($(columnArray[column]).hasClass('red') === true) {
 				arr1.push(columnArray[column]);
 				console.log('red');
