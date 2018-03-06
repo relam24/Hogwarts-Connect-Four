@@ -231,6 +231,7 @@ $(() => {
 					console.log('gold');
 					goldWin(arrColor);
 				}
+			}
 // columnThreeWinThree
 			for (let arrColumn = 0; arrColumn < $columnSixWinThree.length; arrColumn++) {
 				if (arrColor[arr].$red === $columnSixWinThree[arrColumn].$red) {
@@ -241,8 +242,7 @@ $(() => {
 					goldWin(arrColor);
 				}
 			}
-		}
-	}
+	};
 };
 
 // =====================================
@@ -516,7 +516,6 @@ $(() => {
 	const $column5button = $('.column5button');
 	const $column6button = $('.column6button');
 // create circles
-	const checkStatus = () => {
 // column 1
 	const $circle1A = $('#circle1A');
 	const $circle1B = $('#circle1B');
