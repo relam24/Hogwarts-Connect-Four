@@ -31,24 +31,39 @@ $(() => {
 	const playerTwo = () => {
 		// console.log('playertwo');
 	};
-
-	// =======================================//
+	// ===========================//
 	// checking column
+	// clickCircle gives you the class of color.
 	const verticalCheck = (clickCircle, color) => {
 		const columnArray = clickCircle.parent().siblings().children();
+			let arr = [];
 		for (let column = 1; column < columnArray.length; column++) {
-			console.log(columnArray[column]);
-			console.log(clickCircle);
+				if ($(columnArray[column]).hasClass('red') === true) {
+					arr.push(columnArray[column]);
+					// console.log('red');
+				} else if ($(columnArray[column]).hasClass('gold') === true) {
+					arr.push(columnArray[column]);
+					// console.log('gold');
+				}
 		}
-		verticalWin();
+		console.log(arr);
+		fourTheWin(arr);
 	};
-	// checking row
+// ================================================================= //
+		// for the win
+		const fourTheWin = (arr) => {
+			if ('arr.circle.red' === 4) {
+				alert('RED WINS!');
+			} else if ('arr.circle.gold' === 4) {
+				alert('GOLD WINS!');
+			}
+		};
 
-// ==================================================//
+// =====================================
 // added event listener to check vertically.
 // WhoClicked
 	const whoClicked = (clickCircle) => {
-		console.log('who clicked');
+		// console.log('who clicked');
 		if (game % 2 === 0) {
 			clickCircle.css('background-color', 'red');
 			// console.log('red');
@@ -59,13 +74,6 @@ $(() => {
 			// console.log('gold');
 			clickCircle.addClass('gold');
 			verticalCheck(clickCircle, 'gold');
-		}
-	};
-// youWin =======================================//
-// if clickCircle is equal 4
-	const verticalWin = (clickCircle, color) => {
-		if ($(this).val(color) === 4) {
-			alert ('You Win!!')
 		}
 	};
 // ==========================================================//
@@ -230,7 +238,7 @@ $(() => {
 // game click function each click goes between players checks on win
 	let game = 0;
 	const gameClicks = (event) => {
-		console.log('game clicks');
+		// console.log('game clicks');
 		game++;
 		if (game === 1) {
 			playerOne();
@@ -318,49 +326,6 @@ $(() => {
 	const $rowD = $('.rowD');
 	const $rowE = $('.rowE');
 	const $rowF = $('.rowF');
-// grab squares
-// column 1 squares
-	const $square1A = $('#square1A').addClass('.rowA');
-	const $square1B = $('#square1B').addClass('.rowB');
-	const $square1C = $('#square1C').addClass('.rowC');
-	const $square1D = $('#square1D').addClass('.rowD');
-	const $square1E = $('#square1E').addClass('.rowE');
-	const $square1F = $('#square1F').addClass('.rowF');
-// column 2 squares
-	const $square2A = $('#square2A').addClass('.rowA');
-	const $square2B = $('#square2B').addClass('.rowB');
-	const $square2C = $('#square2C').addClass('.rowC');
-	const $square2D = $('#square2D').addClass('.rowD');
-	const $square2E = $('#square2E').addClass('.rowE');
-	const $square2F = $('#square2F').addClass('.rowF');
-// column 3 squares
-	const $square3A = $('#square3A').addClass('.rowA');
-	const $square3B = $('#square3B').addClass('.rowB');
-	const $square3C = $('#square3C').addClass('.rowC');
-	const $square3D = $('#square3D').addClass('.rowD');
-	const $square3E = $('#square3E').addClass('.rowE');
-	const $square3F = $('#square3F').addClass('.rowF');
-// column 4 squares
-	const $square4A = $('#square4A').addClass('.rowA');
-	const $square4B = $('#square4B').addClass('.rowB');
-	const $square4C = $('#square4C').addClass('.rowC');
-	const $square4D = $('#square4D').addClass('.rowD');
-	const $square4E = $('#square4E').addClass('.rowE');
-	const $square4F = $('#square4F').addClass('.rowF');
-// column 5 squares
-	const $square5A = $('#square5A').addClass('.rowA');
-	const $square5B = $('#square5B').addClass('.rowB');
-	const $square5C = $('#square5C').addClass('.rowC');
-	const $square5D = $('#square5D').addClass('.rowD');
-	const $square5E = $('#square5E').addClass('.rowE');
-	const $square5F = $('#square5F').addClass('.rowF');
-// column 6 squares
-	const $square6A = $('#square6A').addClass('.rowA');
-	const $square6B = $('#square6B').addClass('.rowB');
-	const $square6C = $('#square6C').addClass('.rowC');
-	const $square6D = $('#square6D').addClass('.rowD');
-	const $square6E = $('#square6E').addClass('.rowE');
-	const $square6F = $('#square6F').addClass('.rowF');
 
 // column buttons
 	const $column1button = $('.column1button');
@@ -448,7 +413,4 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
-// grab arrays
-		const $rowArray = [$rowA, $rowB, $rowC, $rowD, $rowE, $rowF];
-		const $columnArray = [$column1, $column2, $column3, $column4, $column5, $column6];
 });
