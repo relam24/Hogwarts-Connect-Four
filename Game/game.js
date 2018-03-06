@@ -26,11 +26,11 @@ $(() => {
 // ============================================//
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
-		console.log('playerone');
-	}
+		// console.log('playerone');
+	};
 	const playerTwo = () => {
-		console.log('playertwo');
-	}
+		// console.log('playertwo');
+	};
 
 	// =======================================//
 	// checking column
@@ -38,6 +38,7 @@ $(() => {
 		const columnArray = clickCircle.parent().siblings().children();
 		for (let column = 1; column < columnArray.length; column++) {
 			console.log(columnArray[column]);
+			console.log(clickCircle);
 		}
 		verticalWin();
 	};
@@ -50,18 +51,18 @@ $(() => {
 		console.log('who clicked');
 		if (game % 2 === 0) {
 			clickCircle.css('background-color', 'red');
-			console.log('red');
+			// console.log('red');
 			clickCircle.addClass('red');
 			verticalCheck(clickCircle, 'red');
 		} else {
 			clickCircle.css('background-color', 'gold');
-			console.log('gold');
+			// console.log('gold');
 			clickCircle.addClass('gold');
 			verticalCheck(clickCircle, 'gold');
 		}
 	};
 // youWin =======================================//
-// win state
+// if clickCircle is equal 4
 	const verticalWin = (clickCircle, color) => {
 		if ($(this).val(color) === 4) {
 			alert ('You Win!!')
@@ -73,7 +74,7 @@ $(() => {
 // added gameClicks function
 	let click1 = 0;
 	const columnOneClick = (event) => {
-		console.log('column1');
+		// console.log('column1');
 		click1++;
 		if (click1 === 1) {
 			$column1button.on('click', whoClicked($circle1F));
@@ -99,7 +100,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click2 = 0;
 	const columnTwoClick = (event) => {
-		console.log('column2');
+		// console.log('column2');
 		click2++;
 		if (click2 === 1) {
 			$column2button.on('click', whoClicked($circle2F));
@@ -125,7 +126,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click3 = 0;
 	const columnThreeClick = (event) => {
-		console.log('column3');
+		// console.log('column3');
 		click3++;
 		if (click3 === 1) {
 			$column3button.on('click', whoClicked($circle3F));
@@ -151,7 +152,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click4 = 0;
 	const columnFourClick = (event) => {
-		console.log('column4');
+		// console.log('column4');
 		click4++;
 		if (click4 === 1) {
 			$column4button.on('click', whoClicked($circle4F));
@@ -177,7 +178,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click5 = 0;
 	const columnFiveClick = (event) => {
-		console.log('column5');
+		// console.log('column5');
 		click5++;
 		if (click5 === 1) {
 			$column5button.on('click', whoClicked($circle5F));
@@ -203,7 +204,7 @@ $(() => {
 // changed clickedCircle from add class to append
 	let click6 = 0;
 	const columnSixClick = (event) => {
-		console.log('column6');
+		// console.log('column6');
 		click6++;
 		if (click6 === 1) {
 			$column6button.on('click', whoClicked($circle6F));
