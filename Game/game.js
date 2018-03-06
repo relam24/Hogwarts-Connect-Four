@@ -46,207 +46,8 @@ $(() => {
 				// console.log('gold');
 			}
 		}
-		// fourTheWin(arrColor);
+		checkWin(arrColor);
 	};
-
-// ========================================================
-// functions redWin and goldWin
-	// const redWin = (arrColor) => {
-	// 	console.log('redwin function');
-	// 	if (arrColor.$red === 4) {
-	// 		console.log('redWin!');
-	// 	}
-	// };
-	// const goldWin = (arrColor) => {
-	// 	console.log('gold win function');
-	// 	if (arrColor.$gold === 4) {
-	// 		console.log('goldWin');
-	// 	}
-	// };
-// ====================================================================== //
-// for the win
-// VERTICAL
-// each columnone
-	// const fourTheWin = (arrColor) => {
-	// 	for (let arr = 0; arr < arrColor.length; arr++) {
-	// 		$(arrColor).addClass('result1')
-	// 		// columnOneWinOne
-	// 		for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
-	// 			$columnOneWinOne.addClass('result2');
-	// 		};
-			// columnOneWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnOneWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnOneWinTwo[arrColumn].$red) {
-					// console.log('red');
-					// redWin(arrColor);
-				// } else if (arrColor[arr].$gold === $columnOneWinTwo[arrColumn].$gold) {
-					// console.log('gold');
-					// goldWin(arrColor);
-			// 	}
-			// }
-			// // columnOneWinThree
-			// for (let arrColumn = 0; arrColumn < $columnOneWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnOneWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnTwoWinOne
-			// for (let arrColumn = 0; arrColumn < $columnTwoWinOne.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnTwoWinOne[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnTwoWinOne[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnTwoWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnTwoWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnTwoWinTwo[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnTwoWinTwo[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnTwoWinThree
-			// for (let arrColumn = 0; arrColumn < $columnTwoWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnTwoWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnTwoWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnThreeWinOne
-			// for (let arrColumn = 0; arrColumn < $columnThreeWinOne.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnThreeWinOne[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnThreeWinOne[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnThreeWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnThreeWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnThreeWinTwo[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnThreeWinTwo[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnThreeWinThree
-			// for (let arrColumn = 0; arrColumn < $columnThreeWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnThreeWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnThreeWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFourWinOne
-			// for (let arrColumn = 0; arrColumn < $columnFourWinOne.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFourWinOne[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFourWinOne[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFourWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnFourWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFourWinTwo[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFourWinTwo[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFourWinThree
-			// for (let arrColumn = 0; arrColumn < $columnFourWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFourWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFourWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFiveWinOne
-			// for (let arrColumn = 0; arrColumn < $columnFiveWinOne.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFiveWinOne[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFiveWinOne[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFiveWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnFiveWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFiveWinTwo[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFiveWinTwo[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnFiveWinThree
-			// for (let arrColumn = 0; arrColumn < $columnFiveWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnFiveWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnFiveWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnSixWinOne
-			// for (let arrColumn = 0; arrColumn < $columnSixWinOne.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnSixWinOne[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnSixWinOne[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnSixWinTwo
-			// for (let arrColumn = 0; arrColumn < $columnSixWinTwo.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnSixWinTwo[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnSixWinTwo[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-			// // columnThreeWinThree
-			// for (let arrColumn = 0; arrColumn < $columnSixWinThree.length; arrColumn++) {
-			// 	if (arrColor[arr].$red === $columnSixWinThree[arrColumn].$red) {
-			// 		console.log('red');
-			// 		redWin(arrColor);
-			// 	} else if (arrColor[arr].$gold === $columnSixWinThree[arrColumn].$gold) {
-			// 		console.log('gold');
-			// 		goldWin(arrColor);
-			// 	}
-			// }
-	// 	};
-	// };
-
 // =====================================
 // added event listener to check vertically.
 // WhoClicked
@@ -518,81 +319,104 @@ $(() => {
 	const $column5button = $('.column5button');
 	const $column6button = $('.column6button');
 // create circles
-	const checkStatus = () => {
+	const checkWin = (arrColor) => {
 // column 1
-	const $circle1A = $('#circle1A');
-	const $circle1B = $('#circle1B');
-	const $circle1C = $('#circle1C');
-	const $circle1D = $('#circle1D');
-	const $circle1E = $('#circle1E');
-	const $circle1F = $('#circle1F');
+		const $circle1A = $('#circle1A');
+		const $circle1B = $('#circle1B');
+		const $circle1C = $('#circle1C');
+		const $circle1D = $('#circle1D');
+		const $circle1E = $('#circle1E');
+		const $circle1F = $('#circle1F');
 // column 2
-	const $circle2A = $('#circle2A');
-	const $circle2B = $('#circle2B');
-	const $circle2C = $('#circle2C');
-	const $circle2D = $('#circle2D');
-	const $circle2E = $('#circle2E');
-	const $circle2F = $('#circle2F');
+		const $circle2A = $('#circle2A');
+		const $circle2B = $('#circle2B');
+		const $circle2C = $('#circle2C');
+		const $circle2D = $('#circle2D');
+		const $circle2E = $('#circle2E');
+		const $circle2F = $('#circle2F');
 // column 3
-	const $circle3A = $('#circle3A');
-	const $circle3B = $('#circle3B');
-	const $circle3C = $('#circle3C');
-	const $circle3D = $('#circle3D');
-	const $circle3E = $('#circle3E');
-	const $circle3F = $('#circle3F');
+		const $circle3A = $('#circle3A');
+		const $circle3B = $('#circle3B');
+		const $circle3C = $('#circle3C');
+		const $circle3D = $('#circle3D');
+		const $circle3E = $('#circle3E');
+		const $circle3F = $('#circle3F');
  // column 4
-	const $circle4A = $('#circle4A');
-	const $circle4B = $('#circle4B');
-	const $circle4C = $('#circle4C');
-	const $circle4D = $('#circle4D');
-	const $circle4E = $('#circle4E');
-	const $circle4F = $('#circle4F');
+		const $circle4A = $('#circle4A');
+		const $circle4B = $('#circle4B');
+		const $circle4C = $('#circle4C');
+		const $circle4D = $('#circle4D');
+		const $circle4E = $('#circle4E');
+		const $circle4F = $('#circle4F');
 // column 5
-	const $circle5A = $('#circle5A');
-	const $circle5B = $('#circle5B');
-	const $circle5C = $('#circle5C');
-	const $circle5D = $('#circle5D');
-	const $circle5E = $('#circle5E');
-	const $circle5F = $('#circle5F');
+		const $circle5A = $('#circle5A');
+		const $circle5B = $('#circle5B');
+		const $circle5C = $('#circle5C');
+		const $circle5D = $('#circle5D');
+		const $circle5E = $('#circle5E');
+		const $circle5F = $('#circle5F');
 // column 6
-	const $circle6A = $('#circle6A');
-	const $circle6B = $('#circle6B');
-	const $circle6C = $('#circle6C');
-	const $circle6D = $('#circle6D');
-	const $circle6E = $('#circle6E');
-	const $circle6F = $('#circle6F');
+		const $circle6A = $('#circle6A');
+		const $circle6B = $('#circle6B');
+		const $circle6C = $('#circle6C');
+		const $circle6D = $('#circle6D');
+		const $circle6E = $('#circle6E');
+		const $circle6F = $('#circle6F');
 
-	if (
-		//column1
+		if (
+		// column1
 		$circle1A === $circle1B === $circle1C === $circle1D && $circle1A !== '' ||
 		$circle1B === $circle1C === $circle1D === $circle1E && $circle1B !== '' ||
 		$circle1C === $circle1D === $circle1E === $circle1F && $circle1C !== '' ||
-		//column2
+		// column2
 		$circle2A === $circle2B === $circle2C === $circle2D && $circle2A !== '' ||
 		$circle2B === $circle2C === $circle2D === $circle2E && $circle2B !== '' ||
 		$circle2C === $circle2D === $circle2E === $circle2F && $circle2C !== '' ||
-		//column3
+		// column3
 		$circle3A === $circle3B === $circle3C === $circle3D && $circle3A !== '' ||
 		$circle3B === $circle3C === $circle3D === $circle3E && $circle3B !== '' ||
 		$circle3C === $circle3D === $circle3E === $circle3F && $circle3C !== '' ||
-		//column4
+		// column4
 		$circle4A === $circle4B === $circle4C === $circle4D && $circle4A !== '' ||
 		$circle4B === $circle4C === $circle4D === $circle4E && $circle4B !== '' ||
 		$circle4C === $circle4D === $circle4E === $circle4F && $circle4C !== '' ||
-		//column5
+		// column5
 		$circle5A === $circle5B === $circle5C === $circle5D && $circle5A !== '' ||
 		$circle5B === $circle5C === $circle5D === $circle5E && $circle5B !== '' ||
 		$circle5C === $circle5D === $circle5E === $circle5F && $circle5C !== '' ||
-		//column6
+		// column6
 		$circle6A === $circle6B === $circle6C === $circle6D && $circle6A !== '' ||
 		$circle6B === $circle6C === $circle6D === $circle6E && $circle6B !== '' ||
 		$circle6C === $circle6D === $circle6E === $circle6F && $circle6C !== '' ||
+		// rowA
+		$circle1A === $circle2A === $circle3A === $circle4A && $circle1A !== '' ||
+		$circle2A === $circle3A === $circle4A === $circle5A && $circle2A !== '' ||
+		$circle3A === $circle4A === $circle5A === $circle6A && $circle3A !== '' ||
+		// rowB
+		$circle1B === $circle2B === $circle3B === $circle4B && $circle1B !== '' ||
+	  $circle2B === $circle3B === $circle4B === $circle5B && $circle2B !== '' ||
+	  $circle3B === $circle4B === $circle5B === $circle6B && $circle3B !== '' ||
+		// row C
+		$circle1C === $circle2C === $circle3C === $circle4C && $circle1C !== '' ||
+		$circle2C === $circle3C === $circle4C === $circle5C && $circle2C !== '' ||
+		$circle3C === $circle4C === $circle5C === $circle6C && $circle3C !== '' ||
+		// row D
+		$circle1D === $circle2D === $circle3D === $circle4D && $circle1D !== '' ||
+		$circle2D === $circle3D === $circle4D === $circle5D && $circle2D !== '' ||
+		$circle3D === $circle4D === $circle5D === $circle6D && $circle3D !== '' ||
+		// row E
+		$circle1E === $circle2E === $circle3E === $circle4E && $circle1E !== '' ||
+		$circle2E === $circle3E === $circle4E === $circle5E && $circle2E !== '' ||
+		$circle3E === $circle4E === $circle5E === $circle6E && $circle3E !== '' ||
+		// row F
+		$circle1F === $circle2F === $circle3F === $circle4F && $circle1F !== '' ||
+		$circle2F === $circle3F === $circle4F === $circle5F && $circle2F !== '' ||
+		$circle3F === $circle4F === $circle5F === $circle6F && $circle3F !== ''
+	) {
 
 
-
-	)
-
-};
+		}
+	};
 // =========================================//
 // reset/start
 	const $reset = $('.reset');
