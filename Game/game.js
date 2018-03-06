@@ -36,17 +36,17 @@ $(() => {
 	// clickCircle gives you the class of color.
 	const verticalCheck = (clickCircle, color) => {
 		const columnArray = clickCircle.parent().siblings().children();
-			let arr = [];
+		let arr = [];
 		for (let column = 1; column < columnArray.length; column++) {
-				if ($(columnArray[column]).hasClass('red') === true) {
-					arr.push(columnArray[column]);
+			if ($(columnArray[column]).hasClass('red') === true) {
+				arr.push(columnArray[column]);
 					// console.log('red');
-				} else if ($(columnArray[column]).hasClass('gold') === true) {
-					arr.push(columnArray[column]);
+			} else if ($(columnArray[column]).hasClass('gold') === true) {
+				arr.push(columnArray[column]);
 					// console.log('gold');
-				}
+			}
 		}
-		console.log(arr);
+		// console.log(arr);
 		fourTheWin(arr);
 	};
 // ================================================================= //
@@ -54,8 +54,10 @@ $(() => {
 		const fourTheWin = (arr) => {
 			if ('arr.circle.red' === 4) {
 				alert('RED WINS!');
+				console.log('red wins');
 			} else if ('arr.circle.gold' === 4) {
 				alert('GOLD WINS!');
+				console.log('gold wins');
 			}
 		};
 
