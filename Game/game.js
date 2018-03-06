@@ -69,13 +69,16 @@ $(() => {
 // each columnone
 	const fourTheWin = (arrColor) => {
 		for (let arr = 0; arr < arrColor.length; arr++) {
+			console.log(arrColor);
 // columnOneWinOne
 			for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
+				console.log($columnOneWinOne);
 				if (arrColor[arr].$red === $columnOneWinOne[arrColumn].$red) {
 					console.log('red');
 				} else if (arrColor[arr].$gold === $columnOneWinOne[arrColumn].$gold) {
 					console.log('gold');
 				}
+			}
 // columnOneWinTwo
 				for (let arrColumn = 0; arrColumn < $columnOneWinTwo.length; arrColumn++) {
 					if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
@@ -246,8 +249,7 @@ $(() => {
 					console.log('gold');
 					goldWin(arrColor);
 				}
-			}
-		};
+			};
 	};
 
 // =====================================
