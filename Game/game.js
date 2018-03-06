@@ -36,34 +36,35 @@ $(() => {
 	// clickCircle gives you the class of color.
 	const verticalCheck = (clickCircle, color) => {
 		const columnArray = clickCircle.parent().siblings().children();
-		let arrRed = [];
-		let arrGold = [];
+		let arrColor = [];
 		for (let column = 0; column < columnArray.length; column++) {
 			if ($(columnArray[column]).hasClass('red') === true) {
-				arrRed.push(columnArray[column]);
-				console.log('red');
+				arrColor.push(columnArray[column]);
+				// console.log('red');
 			} else if ($(columnArray[column]).hasClass('gold') === true) {
-				arrGold.push(columnArray[column]);
-				console.log('gold');
+				arrColor.push(columnArray[column]);
+				// console.log('gold');
 			}
 		}
-		console.log(arrRed);
-		console.log(arrGold);
-		fourTheWin(arrRed, arrGold);
+		fourTheWin(arrColor);
 	};
-// ================================================================= //
-		// for the win
-	const fourTheWin = (arr1, arr2) => {
-		// console.log(arr);
-		if (arr1 === 4) {
-			alert('RED WINS!');
-			console.log('red wins');
-		} else if (arr2 === 4) {
-			alert('GOLD WINS!');
-			console.log('gold wins');
+// =================================================================
+// for the win
+// each columnone
+	const fourTheWin = (arrColor) => {
+		console.log(arrColor);
+		const arr1 = () => {
+		for (let arr = 0; arr < arrColor.length; arr++) {
+			for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnOneWinOne[arrColumn].$red === 4) {
+					console.log('red wins');
+				} else if (arrColor[arr].$gold === $columnOneWinOne[arrColumn].$gold === 4) {
+					console.log('gold wins');
+				}
+			}
 		}
+		};
 	};
-
 // =====================================
 // added event listener to check vertically.
 // WhoClicked
@@ -324,6 +325,9 @@ $(() => {
 // set click listener for first called function
 
 // ===============================================//
+// take red and gold class and turn them into jquery objects
+	const $red = $('.red');
+	const $gold = $('.gold');
 // grab rows
 	const $rowA = $('.rowA');
 	const $rowB = $('.rowB');
@@ -331,7 +335,6 @@ $(() => {
 	const $rowD = $('.rowD');
 	const $rowE = $('.rowE');
 	const $rowF = $('.rowF');
-
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');
@@ -418,4 +421,37 @@ $(() => {
 	const $column6 = $('.column6');
 	$column6.on('click', columnSixClick);
 // ===========================================//
+// all possible win states
+// put all possible win state
+// VERTICAL
+// column one
+	const $columnOneWinOne = [$circle1A, $circle1B, $circle1C, $circle1D];
+	const $columnOneWinTwo = [$circle1B, $circle1C, $circle1D, $circle1E];
+	const $columnOneWinThree = [$circle1C, $circle1D, $circle1E, $circle1F];
+	// column two
+	const $columnTwoWinOne = [$circle2A, $circle2B, $circle2C, $circle2D];
+	const $columnTwoWinTwo = [$circle2B, $circle2C, $circle2D, $circle2E];
+	const $columnTwoWinThree = [$circle2C, $circle2D, $circle2E, $circle2F];
+	// column three
+	const $columnThreeWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
+	const $columnThreeWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
+	const $columnThreeWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
+// column 4
+const $columnFourWinOne = [$circle4A, $circle4B, $circle4C, $circle4D];
+const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
+const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
+// column 5
+const $columnFiveWinOne = [$circle5A, $circle5B, $circle5C, $circle5D];
+const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
+const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
+// column 6
+const $columnSixWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
+const $columnSixWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
+const $columnSixWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
+
+
+
+
+
+
 });
