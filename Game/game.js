@@ -46,7 +46,7 @@ $(() => {
 				// console.log('gold');
 			}
 		}
-		// fourTheWin(arrColor);
+		fourTheWin(arrColor);
 	};
 
 // ========================================================
@@ -71,17 +71,22 @@ $(() => {
 		for (let arr = 0; arr < arrColor.length; arr++) {
 // columnOneWinOne
 			for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
+				if (arrColor[arr].$red === $columnOneWinOne[arrColumn].$red) {
+					console.log('red');
+				} else if (arrColor[arr].$gold === $columnOneWinOne[arrColumn].$gold) {
+					console.log('gold');
+				}
 // columnOneWinTwo
-		for (let arrColumn = 0; arrColumn < $columnOneWinThree.length; arrColumn++) {
-			if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
-		console.log('red');
-		redWin(arrColor);
-	} else if (arrColor[arr].$gold === $columnOneWinThree[arrColumn].$gold) {
-		console.log('gold');
-		goldWin(arrColor);
-	}
-	}
-}
+				for (let arrColumn = 0; arrColumn < $columnOneWinTwo.length; arrColumn++) {
+					if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
+						console.log('red');
+						redWin(arrColor);
+					} else if (arrColor[arr].$gold === $columnOneWinTwo[arrColumn].$gold) {
+						console.log('gold');
+						goldWin(arrColor);
+					}
+				}
+			}
 // columnOneWinThree
 			for (let arrColumn = 0; arrColumn < $columnOneWinThree.length; arrColumn++) {
 				if (arrColor[arr].$red === $columnOneWinThree[arrColumn].$red) {
@@ -232,7 +237,7 @@ $(() => {
 					goldWin(arrColor);
 				}
 			}
-// columnThreeWinThree
+// columnSixWinThree
 			for (let arrColumn = 0; arrColumn < $columnSixWinThree.length; arrColumn++) {
 				if (arrColor[arr].$red === $columnSixWinThree[arrColumn].$red) {
 					console.log('red');
@@ -242,8 +247,8 @@ $(() => {
 					goldWin(arrColor);
 				}
 			}
+		};
 	};
-};
 
 // =====================================
 // added event listener to check vertically.
