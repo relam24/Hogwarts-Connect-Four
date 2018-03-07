@@ -52,18 +52,91 @@ $(() => {
 // four the win
 	// let countClick = 1;
 	const fourTheWin = (arrColor) => {
-
 		for (let arr = 1; arr < arrColor.length; arr++) {
 // columnOneWinOne
 			let countClick = 1;
 			for (let arrColumn = 1; arrColumn < $columnOneWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnOneWinOne[arrColumn].hasClass('red', 'gold')) {
+				if ($columnOneWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnOneWinOne[arrColumn].hasClass('gold')) {
 					countClick++;
 				}
 			}
-			if (countClick === 3) {
-				console.log('YOU WIN');
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
+			}
+// columnTwoWinOne
+			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+					countClick++
+				}
+			}
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
+			}
+// columnThreeWinOne
+			for (let arrColumn = 1; arrColumn < $columnThreeWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnThreeWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnThreeWinOne[arrColumn].hasClass('gold')) {
+					countClick++
+				}
+			}
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
+			}
+// columnFourWinOne
+			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+					countClick++
+				}
+			}
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
+			}
+// columnFiveWinOne
+			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+					countClick++
+				}
+			}
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
+			}
+// columnSixWinOne
+			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+					countClick++;
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+					countClick++
+				}
+			}
+			if (countClick === 3 && 'red') {
+				alert('RED YOU WIN');
+			} else if (countClick === 3 && 'gold') {
+				alert('GOLD YOU WIN');
 			}
 		};
 	};
