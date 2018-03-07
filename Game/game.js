@@ -23,7 +23,7 @@ $(() => {
 // set timeout for two seconds
 	setTimeout(openModal, 2000);
 	// end of Modal
-// =============================//
+// ====================================================== //
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
 		// console.log('playerone');
@@ -47,13 +47,18 @@ $(() => {
 			}
 		}
 		fourTheWin(arrColor);
+		fourTheWin2(arrColor);
+		fourTheWin3(arrColor);
+		fourTheWin4(arrColor);
+		fourTheWin5(arrColor);
+		fourTheWin6(arrColor);
 	};
 // ==================================
 // four the win
 	// let countClick = 1;
 	const fourTheWin = (arrColor) => {
 		for (let arr = 1; arr < arrColor.length; arr++) {
-// columnOneWinOne
+// columnOne
 			let countClick = 1;
 			for (let arrColumn = 1; arrColumn < $columnOneWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
@@ -64,10 +69,103 @@ $(() => {
 				}
 			}
 			if (countClick === 3) {
-				setTimeout(1000);
 				alert('Gryffindor Wins');
 			} else if (countClick === 3) {
-				setTimeout(1000);
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourTheWin2 = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+	// columnTwo
+			let countClick1 = 1;
+			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+					countClick1++;
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+					countClick1++;
+				}
+			}
+			if (countClick1 === 3) {
+				alert('Gryffindor Wins');
+			} else if (countClick1 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourTheWin3 = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+	// columnThree
+			let countClick2 = 1;
+			for (let arrColumn = 1; arrColumn < $columnThreeWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnThreeWinOne[arrColumn].hasClass('red')) {
+					countClick2++;
+				} else if ($columnThreeWinOne[arrColumn].hasClass('gold')) {
+					countClick2++;
+				}
+			}
+			if (countClick2 === 3) {
+				alert('Gryffindor Wins');
+			} else if (countClick2 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourTheWin4 = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+	// columnThree
+			let countClick3 = 1;
+			for (let arrColumn = 1; arrColumn < $columnFourWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnFourWinOne[arrColumn].hasClass('red')) {
+					countClick3++;
+				} else if ($columnFourWinOne[arrColumn].hasClass('gold')) {
+					countClick3++;
+				}
+			}
+			if (countClick3 === 3) {
+				alert('Gryffindor Wins');
+			} else if (countClick3 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourTheWin5 = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+	// columnThree
+			let countClick4 = 1;
+			for (let arrColumn = 1; arrColumn < $columnFiveWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnFiveWinOne[arrColumn].hasClass('red')) {
+					countClick4++;
+				} else if ($columnFiveWinOne[arrColumn].hasClass('gold')) {
+					countClick4++;
+				}
+			}
+			if (countClick4 === 3) {
+				alert('Gryffindor Wins');
+			} else if (countClick4 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourTheWin6 = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+	// columnThree
+			let countClick5 = 1;
+			for (let arrColumn = 1; arrColumn < $columnSixWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnSixWinOne[arrColumn].hasClass('red')) {
+					countClick5++;
+				} else if ($columnSixWinOne[arrColumn].hasClass('gold')) {
+					countClick5++;
+				}
+			}
+			if (countClick5 === 3) {
+				alert('Gryffindor Wins');
+			} else if (countClick5 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
