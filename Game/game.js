@@ -61,9 +61,9 @@ $(() => {
 			let countClick = 1;
 			for (let arrColumn = 1; arrColumn < $columnOneWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnOneWinOne[arrColumn].hasClass('red')) {
+				if ($columnOneWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick++;
-				} else if ($columnOneWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnOneWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick++;
 				}
 			}
@@ -78,9 +78,9 @@ $(() => {
 			let countClick1 = 1;
 			for (let arrColumn = 1; arrColumn < $columnTwoWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnTwoWinOne[arrColumn].hasClass('red')) {
+				if ($columnTwoWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick1++;
-				} else if ($columnTwoWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnTwoWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick1++;
 				}
 			}
@@ -95,9 +95,9 @@ $(() => {
 			let countClick2 = 1;
 			for (let arrColumn = 1; arrColumn < $columnThreeWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnThreeWinOne[arrColumn].hasClass('red')) {
+				if ($columnThreeWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick2++;
-				} else if ($columnThreeWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnThreeWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick2++;
 				}
 			}
@@ -112,9 +112,9 @@ $(() => {
 			let countClick3 = 1;
 			for (let arrColumn = 1; arrColumn < $columnFourWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnFourWinOne[arrColumn].hasClass('red')) {
+				if ($columnFourWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick3++;
-				} else if ($columnFourWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnFourWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick3++;
 				}
 			}
@@ -129,9 +129,9 @@ $(() => {
 			let countClick4 = 1;
 			for (let arrColumn = 1; arrColumn < $columnFiveWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnFiveWinOne[arrColumn].hasClass('red')) {
+				if ($columnFiveWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick4++;
-				} else if ($columnFiveWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnFiveWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick4++;
 				}
 			}
@@ -146,9 +146,11 @@ $(() => {
 			let countClick5 = 1;
 			for (let arrColumn = 1; arrColumn < $columnSixWinOne.length; arrColumn++) {
 				let winCircle = arrColor[arr];
-				if ($columnSixWinOne[arrColumn].hasClass('red')) {
+				// console.log(winCircle);
+				// console.log($(winCircle).hasClass('red'));
+				if ($columnSixWinOne[arrColumn].hasClass('red') && ($(winCircle).hasClass('red') === true)) {
 					countClick5++;
-				} else if ($columnSixWinOne[arrColumn].hasClass('gold')) {
+				} else if ($columnSixWinOne[arrColumn].hasClass('gold') && ($(winCircle).hasClass('gold') === true)) {
 					countClick5++;
 				}
 			}
