@@ -63,9 +63,9 @@ $(() => {
 					countClick++;
 				}
 			}
-			if (countClick === 3 && 'red') {
+			if (countClick === 3) {
 				alert('RED YOU WIN');
-			} else if (countClick === 3 && 'gold') {
+			} else if (countClick === 3) {
 				alert('GOLD YOU WIN');
 			}
 		};

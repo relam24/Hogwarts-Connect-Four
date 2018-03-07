@@ -66,6 +66,7 @@ header {
 	border-radius: 5px;
 	border-color: rgb(251,227,185);
 	position: fixed;
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .reset {
@@ -267,7 +268,7 @@ body {
 	flex-direction: row;
 	margin: 0;
 	padding: 0;
-	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .column2button {
@@ -277,6 +278,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .column3button {
@@ -286,6 +288,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .column4button {
@@ -295,6 +298,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .column5button {
@@ -304,6 +308,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .column6button {
@@ -313,10 +318,12 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: rgb(72, 0, 0);
+	background-image:url(https://images.homedepot-static.com/productImages/b3924fd0-dc00-44d0-b86d-6fe900524c28/svn/home-decorators-collection-bamboo-flooring-am1319e-64_300.jpg);
 }
 
 .circle {
-	background-color: gray;
+	background-image: url(https://cdn.pixabay.com/photo/2014/10/26/15/26/board-503944_960_720.jpg);
+	background-position: center;
 	border-radius: 50%;
 	height: 100px;
 	width: 100px;
@@ -357,11 +364,9 @@ footer {
 .red {
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ966KnIYmdeW2ZAsDqsvVUCMCPUBpNmjDJs3tN23snrinOB0gX);
 	background-position: center;
-
 }
 
 .gold {
 	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbrCA2UxaYq_t7DyDbvFXRL8vh4nnEtvjWOSRRk5a7-VK5B2n2);
 	background-position: center;
-
 }
