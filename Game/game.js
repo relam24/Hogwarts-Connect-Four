@@ -69,8 +69,6 @@ $(() => {
 			}
 			if (countClick === 3) {
 				alert('WINNER');
-			} else if (countClick === 3) {
-				alert('WINNER');
 			}
 		};
 	};
@@ -87,8 +85,6 @@ $(() => {
 				}
 			}
 			if (countClick1 === 3) {
-				alert('WINNER');
-			} else if (countClick1 === 3) {
 				alert('WINNER');
 			}
 		};
@@ -107,8 +103,6 @@ $(() => {
 			}
 			if (countClick2 === 3) {
 				alert('WINNER');
-			} else if (countClick2 === 3) {
-				alert('WINNER');
 			}
 		};
 	};
@@ -126,8 +120,6 @@ $(() => {
 			}
 			if (countClick3 === 3) {
 				alert('WINNER');
-			} else if (countClick3 === 3) {
-				alert('WINNER');
 			}
 		};
 	};
@@ -144,8 +136,6 @@ $(() => {
 				}
 			}
 			if (countClick4 === 3) {
-				alert('WINNER');
-			} else if (countClick4 === 3) {
 				alert('WINNER');
 			}
 		};
