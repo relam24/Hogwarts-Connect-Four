@@ -52,12 +52,12 @@ $(() => {
 		fourTheWin4(arrColor);
 		fourTheWin5(arrColor);
 		fourTheWin6(arrColor);
-		fourRowWinA(arrColor);
-		fourRowWinB(arrColor);
-		fourRowWinC(arrColor);
-		fourRowWinD(arrColor);
-		fourRowWinE(arrColor);
-		fourRowWinF(arrColor);
+		// fourRowWinA(arrColor);
+		// fourRowWinB(arrColor);
+		// fourRowWinC(arrColor);
+		// fourRowWinD(arrColor);
+		// fourRowWinE(arrColor);
+		// fourRowWinF(arrColor);
 	};
 // ==================================
 // COLUMNS
@@ -92,9 +92,9 @@ $(() => {
 					countClick1++;
 				}
 			}
-			if (countClick1 === 3) {
+			if (countClick1 === 4) {
 				alert('Gryffindor Wins');
-			} else if (countClick1 === 3) {
+			} else if (countClick1 === 4) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -111,9 +111,9 @@ $(() => {
 					countClick2++;
 				}
 			}
-			if (countClick2 === 3) {
+			if (countClick2 === 4) {
 				alert('Gryffindor Wins');
-			} else if (countClick2 === 3) {
+			} else if (countClick2 === 4) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -130,9 +130,9 @@ $(() => {
 					countClick3++;
 				}
 			}
-			if (countClick3 === 3) {
+			if (countClick3 === 4) {
 				alert('Gryffindor Wins');
-			} else if (countClick3 === 3) {
+			} else if (countClick3 === 4) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -149,9 +149,9 @@ $(() => {
 					countClick4++;
 				}
 			}
-			if (countClick4 === 3) {
+			if (countClick4 === 4) {
 				alert('Gryffindor Wins');
-			} else if (countClick4 === 3) {
+			} else if (countClick4 === 4) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -168,128 +168,128 @@ $(() => {
 					countClick5++;
 				}
 			}
-			if (countClick5 === 3) {
+			if (countClick5 === 4) {
 				alert('Gryffindor Wins');
-			} else if (countClick5 === 3) {
+			} else if (countClick5 === 4) {
 				alert('Slytherin Wins');
 			}
 		};
 	};
-// ROWS
-	const fourRowWinA = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row A
-			let rowClick = 1;
-			for (let arrRow = 1; arrRow < $rowA.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowA[arrRow].hasClass('red')) {
-					rowClick++;
-				} else if ($rowA[arrRow].hasClass('gold')) {
-					rowClick++;
-				}
-			}
-			if (rowClick === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
-	const fourRowWinB = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row B
-			let rowClick1 = 1;
-			for (let arrRow = 1; arrRow < $rowB.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowB[arrRow].hasClass('red')) {
-					rowClick1++;
-				} else if ($rowB[arrRow].hasClass('gold')) {
-					rowClick1++;
-				}
-			}
-			if (rowClick1 === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick1 === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
-	const fourRowWinC = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row C
-			let rowClick2 = 1;
-			for (let arrRow = 1; arrRow < $rowC.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowC[arrRow].hasClass('red')) {
-					rowClick2++;
-				} else if ($rowC[arrRow].hasClass('gold')) {
-					rowClick2++;
-				}
-			}
-			if (rowClick2 === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick2 === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
-	const fourRowWinD = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row D
-			let rowClick3 = 1;
-			for (let arrRow = 1; arrRow < $rowD.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowD[arrRow].hasClass('red')) {
-					rowClick3++;
-				} else if ($rowD[arrRow].hasClass('gold')) {
-					rowClick3++;
-				}
-			}
-			if (rowClick3 === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick3 === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
-	const fourRowWinE = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row E
-			let rowClick4 = 1;
-			for (let arrRow = 1; arrRow < $rowE.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowE[arrRow].hasClass('red')) {
-					rowClick4++;
-				} else if ($rowE[arrRow].hasClass('gold')) {
-					rowClick4++;
-				}
-			}
-			if (rowClick4 === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick4 === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
-	const fourRowWinF = (arrColor) => {
-		for (let arr = 1; arr < arrColor.length; arr++) {
-// row F
-			let rowClick5 = 1;
-			for (let arrRow = 1; arrRow < $rowF.length; arrRow++) {
-				let winCircle = arrColor[arr];
-				if ($rowF[arrRow].hasClass('red')) {
-					rowClick5++;
-				} else if ($rowF[arrRow].hasClass('gold')) {
-					rowClick5++;
-				}
-			}
-			if (rowClick5 === 3) {
-				alert('Gryffindor Wins');
-			} else if (rowClick5 === 3) {
-				alert('Slytherin Wins');
-			}
-		};
-	};
+// // ROWS
+// 	const fourRowWinA = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row A
+// 			let rowClick = 1;
+// 			for (let arrRow = 1; arrRow < $rowA.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowA[arrRow].hasClass('red')) {
+// 					rowClick++;
+// 				} else if ($rowA[arrRow].hasClass('gold')) {
+// 					rowClick++;
+// 				}
+// 			}
+// 			if (rowClick === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
+// 	const fourRowWinB = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row B
+// 			let rowClick1 = 1;
+// 			for (let arrRow = 1; arrRow < $rowB.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowB[arrRow].hasClass('red')) {
+// 					rowClick1++;
+// 				} else if ($rowB[arrRow].hasClass('gold')) {
+// 					rowClick1++;
+// 				}
+// 			}
+// 			if (rowClick1 === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick1 === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
+// 	const fourRowWinC = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row C
+// 			let rowClick2 = 1;
+// 			for (let arrRow = 1; arrRow < $rowC.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowC[arrRow].hasClass('red')) {
+// 					rowClick2++;
+// 				} else if ($rowC[arrRow].hasClass('gold')) {
+// 					rowClick2++;
+// 				}
+// 			}
+// 			if (rowClick2 === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick2 === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
+// 	const fourRowWinD = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row D
+// 			let rowClick3 = 1;
+// 			for (let arrRow = 1; arrRow < $rowD.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowD[arrRow].hasClass('red')) {
+// 					rowClick3++;
+// 				} else if ($rowD[arrRow].hasClass('gold')) {
+// 					rowClick3++;
+// 				}
+// 			}
+// 			if (rowClick3 === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick3 === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
+// 	const fourRowWinE = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row E
+// 			let rowClick4 = 1;
+// 			for (let arrRow = 1; arrRow < $rowE.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowE[arrRow].hasClass('red')) {
+// 					rowClick4++;
+// 				} else if ($rowE[arrRow].hasClass('gold')) {
+// 					rowClick4++;
+// 				}
+// 			}
+// 			if (rowClick4 === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick4 === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
+// 	const fourRowWinF = (arrColor) => {
+// 		for (let arr = 1; arr < arrColor.length; arr++) {
+// // row F
+// 			let rowClick5 = 1;
+// 			for (let arrRow = 1; arrRow < $rowF.length; arrRow++) {
+// 				let winCircle = arrColor[arr];
+// 				if ($rowF[arrRow].hasClass('red')) {
+// 					rowClick5++;
+// 				} else if ($rowF[arrRow].hasClass('gold')) {
+// 					rowClick5++;
+// 				}
+// 			}
+// 			if (rowClick5 === 4) {
+// 				alert('Gryffindor Wins');
+// 			} else if (rowClick5 === 4) {
+// 				alert('Slytherin Wins');
+// 			}
+// 		};
+// 	};
 
 // ============================
 // added event listener to check vertically.
