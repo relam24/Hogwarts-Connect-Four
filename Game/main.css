@@ -70,8 +70,6 @@ header {
 }
 
 .reset {
-	/* display: flex;
-	flex-direction: column; */
 	background-color: rgb(72, 0, 0);
 	color: gold;
 	font-family: 'IM Fell English SC', serif;

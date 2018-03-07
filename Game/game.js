@@ -64,9 +64,11 @@ $(() => {
 				}
 			}
 			if (countClick === 3) {
-				alert('RED YOU WIN');
+				setTimeout(1000);
+				alert('Gryffindor Wins');
 			} else if (countClick === 3) {
-				alert('GOLD YOU WIN');
+				setTimeout(1000);
+				alert('Slytherin Wins');
 			}
 		};
 	};
