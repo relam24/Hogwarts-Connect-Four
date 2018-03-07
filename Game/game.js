@@ -21,9 +21,19 @@ $(() => {
 	$openButton.on('click', openModal);
 	$closeButton.on('click', closeModal);
 // set timeout for two seconds
- // setTimeout(openModal, 2000);
+	setTimeout(openModal, 2000);
 	// end of Modal
-// ============================================//
+// =============================//
+
+
+
+
+
+
+
+
+
+// ====================================== //
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
 		// console.log('playerone');
@@ -333,6 +343,8 @@ $(() => {
 		document.location.reload(true);
 	});
 // ===============================================//
+// grab threebroomsticks
+	const $threebrooms = ('.threebroomsticks');
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');
