@@ -48,37 +48,25 @@ $(() => {
 		}
 		fourTheWin(arrColor);
 	};
-
-// ========================================================
-// functions redWin and goldWin
-	const redWin = (arrColor) => {
-		console.log('redwin function');
-		if (arrColor.$red === 4) {
-			console.log('red!');
-		}
-	};
-	const goldWin = (arrColor) => {
-		console.log('gold win function');
-		if (arrColor.$gold === 4) {
-			console.log('gold!');
-		}
-	};
-// ====================================================================== //
-// for the win
-// VERTICAL
-// each columnone
+// ==================================
+// four the win
+	// let countClick = 1;
 	const fourTheWin = (arrColor) => {
-		for (let arr = 0; arr < arrColor.length; arr++) {
+
+		for (let arr = 1; arr < arrColor.length; arr++) {
 // columnOneWinOne
-for (let arrColumn = 0; arrColumn < $columnOneWinOne.length; arrColumn++) {
-let winClass = arrColor[arr];
-console.log(winClass);
-if ($columnOneWinOne[arrColumn].$circle.val()) {
-countClick++;
-}
-}
-};
-};
+			let countClick = 1;
+			for (let arrColumn = 1; arrColumn < $columnOneWinOne.length; arrColumn++) {
+				let winCircle = arrColor[arr];
+				if ($columnOneWinOne[arrColumn].hasClass('red', 'gold')) {
+					countClick++;
+				}
+			}
+			if (countClick === 3) {
+				console.log('YOU WIN');
+			}
+		};
+	};
 
 // =====================================
 // added event listener to check vertically.
