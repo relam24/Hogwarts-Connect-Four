@@ -70,7 +70,6 @@ $(() => {
 			}
 		};
 	};
-
 // ============================
 // added event listener to check vertically.
 // WhoClicked
@@ -246,7 +245,7 @@ $(() => {
 			gameClicks();
 		}
 	};
-// ==============================================================//
+// =================================//
 // game click function each click goes between players checks on win
 	let game = 0;
 	const gameClicks = (event) => {
@@ -332,9 +331,7 @@ $(() => {
 	$('.reset').click(function () {
 		document.location.reload(true);
 	});
-// ===============================================//
-// grab threebroomsticks
-	// const $threebrooms = ('.threebroomsticks');
+// ==============================//
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');

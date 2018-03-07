@@ -353,3 +353,15 @@ footer {
 	height: 40px;
 	width: 2000px;
 }
+
+.red {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ966KnIYmdeW2ZAsDqsvVUCMCPUBpNmjDJs3tN23snrinOB0gX);
+	background-position: center;
+
+}
+
+.gold {
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbrCA2UxaYq_t7DyDbvFXRL8vh4nnEtvjWOSRRk5a7-VK5B2n2);
+	background-position: center;
+
+}
