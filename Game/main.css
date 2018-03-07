@@ -117,19 +117,6 @@ p {
 	color: rgb(251,227,185);
 }
 
-/* .gryfcrest {
-	display:flex;
-	flex-direction: column;
-	background-color: red;
-	top: 20%;
-	left: 80%;
-	height: 20px;
-	width: 20px;
-	background-image: url(http://cdn.playbuzz.com/cdn/e77dbd82-bd2a-4937-8f2a-b240f5315889/4940d2dd-e1c9-41f1-835e-a959f4209fb8.jpg
-http://cdn.playbuzz.com/cdn/e77dbd82-bd2a-4937-8f2a-b240f5315889/4940d2dd-e1c9-41f1-835e-a959f4209fb8.jpg);
-} */
-
-
 .gryf {
 	color: rgb(133,25,16);
 }
@@ -320,7 +307,7 @@ body {
 }
 
 .circle {
-	background-image: url(https://cdn.pixabay.com/photo/2014/10/26/15/26/board-503944_960_720.jpg);
+	background-image: url(https://images.homedepot-static.com/productImages/821a4dee-46d9-4b5a-b85c-b1f55bb015d6/svn/reclaimed-wood-barn-wood-boards-00957-64_1000.jpg);
 	background-position: center;
 	border-radius: 50%;
 	height: 100px;
