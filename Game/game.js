@@ -92,9 +92,9 @@ $(() => {
 					countClick1++;
 				}
 			}
-			if (countClick1 === 4) {
+			if (countClick1 === 3) {
 				alert('Gryffindor Wins');
-			} else if (countClick1 === 4) {
+			} else if (countClick1 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -111,9 +111,9 @@ $(() => {
 					countClick2++;
 				}
 			}
-			if (countClick2 === 4) {
+			if (countClick2 === 3) {
 				alert('Gryffindor Wins');
-			} else if (countClick2 === 4) {
+			} else if (countClick2 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -130,9 +130,9 @@ $(() => {
 					countClick3++;
 				}
 			}
-			if (countClick3 === 4) {
+			if (countClick3 === 3) {
 				alert('Gryffindor Wins');
-			} else if (countClick3 === 4) {
+			} else if (countClick3 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -149,9 +149,9 @@ $(() => {
 					countClick4++;
 				}
 			}
-			if (countClick4 === 4) {
+			if (countClick4 === 3) {
 				alert('Gryffindor Wins');
-			} else if (countClick4 === 4) {
+			} else if (countClick4 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
@@ -168,9 +168,9 @@ $(() => {
 					countClick5++;
 				}
 			}
-			if (countClick5 === 4) {
+			if (countClick5 === 3) {
 				alert('Gryffindor Wins');
-			} else if (countClick5 === 4) {
+			} else if (countClick5 === 3) {
 				alert('Slytherin Wins');
 			}
 		};
