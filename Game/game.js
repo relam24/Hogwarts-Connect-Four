@@ -24,16 +24,6 @@ $(() => {
 	setTimeout(openModal, 2000);
 	// end of Modal
 // =============================//
-
-
-
-
-
-
-
-
-
-// ====================================== //
 // playerOne playerTwo and who clicked function
 	const playerOne = () => {
 		// console.log('playerone');
@@ -344,7 +334,7 @@ $(() => {
 	});
 // ===============================================//
 // grab threebroomsticks
-	const $threebrooms = ('.threebroomsticks');
+	// const $threebrooms = ('.threebroomsticks');
 // column buttons
 	const $column1button = $('.column1button');
 	const $column2button = $('.column2button');
