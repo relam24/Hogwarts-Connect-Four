@@ -52,10 +52,15 @@ $(() => {
 		fourTheWin4(arrColor);
 		fourTheWin5(arrColor);
 		fourTheWin6(arrColor);
+		fourRowWinA(arrColor);
+		fourRowWinB(arrColor);
+		fourRowWinC(arrColor);
+		fourRowWinD(arrColor);
+		fourRowWinE(arrColor);
+		fourRowWinF(arrColor);
 	};
 // ==================================
-// four the win
-	// let countClick = 1;
+// COLUMNS
 	const fourTheWin = (arrColor) => {
 		for (let arr = 1; arr < arrColor.length; arr++) {
 // columnOne
@@ -170,6 +175,122 @@ $(() => {
 			}
 		};
 	};
+// ROWS
+	const fourRowWinA = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row A
+			let rowClick = 1;
+			for (let arrRow = 1; arrRow < $rowA.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowA[arrRow].hasClass('red')) {
+					rowClick++;
+				} else if ($rowA[arrRow].hasClass('gold')) {
+					rowClick++;
+				}
+			}
+			if (rowClick === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourRowWinB = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row B
+			let rowClick1 = 1;
+			for (let arrRow = 1; arrRow < $rowB.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowB[arrRow].hasClass('red')) {
+					rowClick1++;
+				} else if ($rowB[arrRow].hasClass('gold')) {
+					rowClick1++;
+				}
+			}
+			if (rowClick1 === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick1 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourRowWinC = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row C
+			let rowClick2 = 1;
+			for (let arrRow = 1; arrRow < $rowC.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowC[arrRow].hasClass('red')) {
+					rowClick2++;
+				} else if ($rowC[arrRow].hasClass('gold')) {
+					rowClick2++;
+				}
+			}
+			if (rowClick2 === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick2 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourRowWinD = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row D
+			let rowClick3 = 1;
+			for (let arrRow = 1; arrRow < $rowD.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowD[arrRow].hasClass('red')) {
+					rowClick3++;
+				} else if ($rowD[arrRow].hasClass('gold')) {
+					rowClick3++;
+				}
+			}
+			if (rowClick3 === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick3 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourRowWinE = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row E
+			let rowClick4 = 1;
+			for (let arrRow = 1; arrRow < $rowE.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowE[arrRow].hasClass('red')) {
+					rowClick4++;
+				} else if ($rowE[arrRow].hasClass('gold')) {
+					rowClick4++;
+				}
+			}
+			if (rowClick4 === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick4 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+	const fourRowWinF = (arrColor) => {
+		for (let arr = 1; arr < arrColor.length; arr++) {
+// row F
+			let rowClick5 = 1;
+			for (let arrRow = 1; arrRow < $rowF.length; arrRow++) {
+				let winCircle = arrColor[arr];
+				if ($rowF[arrRow].hasClass('red')) {
+					rowClick5++;
+				} else if ($rowF[arrRow].hasClass('gold')) {
+					rowClick5++;
+				}
+			}
+			if (rowClick5 === 3) {
+				alert('Gryffindor Wins');
+			} else if (rowClick5 === 3) {
+				alert('Slytherin Wins');
+			}
+		};
+	};
+
 // ============================
 // added event listener to check vertically.
 // WhoClicked
@@ -514,26 +635,33 @@ $(() => {
 // all possible win states- Vertical
 // column one
 	const $columnOneWinOne = [$circle1A, $circle1B, $circle1C, $circle1D];
-	const $columnOneWinTwo = [$circle1B, $circle1C, $circle1D, $circle1E];
-	const $columnOneWinThree = [$circle1C, $circle1D, $circle1E, $circle1F];
+	// const $columnOneWinTwo = [$circle1B, $circle1C, $circle1D, $circle1E];
+	// const $columnOneWinThree = [$circle1C, $circle1D, $circle1E, $circle1F];
 	// column two
 	const $columnTwoWinOne = [$circle2A, $circle2B, $circle2C, $circle2D];
-	const $columnTwoWinTwo = [$circle2B, $circle2C, $circle2D, $circle2E];
-	const $columnTwoWinThree = [$circle2C, $circle2D, $circle2E, $circle2F];
+	// const $columnTwoWinTwo = [$circle2B, $circle2C, $circle2D, $circle2E];
+	// const $columnTwoWinThree = [$circle2C, $circle2D, $circle2E, $circle2F];
 	// column three
 	const $columnThreeWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
-	const $columnThreeWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
-	const $columnThreeWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
+	// const $columnThreeWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
+	// const $columnThreeWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
 // column 4
 	const $columnFourWinOne = [$circle4A, $circle4B, $circle4C, $circle4D];
-	const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
-	const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
+	// const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
+	// const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
 // column 5
 	const $columnFiveWinOne = [$circle5A, $circle5B, $circle5C, $circle5D];
-	const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
-	const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
+	// const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
+	// const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
 // column 6
-	const $columnSixWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
-	const $columnSixWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
-	const $columnSixWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
+	const $columnSixWinOne = [$circle6A, $circle6B, $circle6C, $circle6D];
+	// const $columnSixWinTwo = [$circle6B, $circle6C, $circle6D, $circle6E];
+	// const $columnSixWinThree = [$circle6C, $circle6D, $circle6E, $circle6F];
+
+	const $rowA = [$circle1A, $circle2A, $circle3A, $circle4A, $circle5A, $circle3A];
+	const $rowB = [$circle1B, $circle2B, $circle3B, $circle4B, $circle5B, $circle6B];
+	const $rowC = [$circle1C, $circle2C, $circle3C, $circle4C, $circle5C, $circle3C];
+	const $rowD = [$circle1D, $circle2D, $circle3D, $circle4D, $circle5D, $circle6D];
+	const $rowE = [$circle1E, $circle2E, $circle3E, $circle4E, $circle5E, $circle3E];
+	const $rowF = [$circle1F, $circle2F, $circle3F, $circle4F, $circle5F, $circle6F];
 });
