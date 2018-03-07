@@ -52,12 +52,6 @@ $(() => {
 		fourTheWin4(arrColor);
 		fourTheWin5(arrColor);
 		fourTheWin6(arrColor);
-		// fourRowWinA(arrColor);
-		// fourRowWinB(arrColor);
-		// fourRowWinC(arrColor);
-		// fourRowWinD(arrColor);
-		// fourRowWinE(arrColor);
-		// fourRowWinF(arrColor);
 	};
 // ==================================
 // COLUMNS
@@ -169,8 +163,6 @@ $(() => {
 				}
 			}
 			if (countClick5 === 3) {
-				alert('WINNER');
-			} else if (countClick5 === 3) {
 				alert('WINNER');
 			}
 		};
@@ -514,26 +506,14 @@ $(() => {
 // all possible win states- Vertical
 // column one
 	const $columnOneWinOne = [$circle1A, $circle1B, $circle1C, $circle1D];
-	// const $columnOneWinTwo = [$circle1B, $circle1C, $circle1D, $circle1E];
-	// const $columnOneWinThree = [$circle1C, $circle1D, $circle1E, $circle1F];
 	// column two
 	const $columnTwoWinOne = [$circle2A, $circle2B, $circle2C, $circle2D];
-	// const $columnTwoWinTwo = [$circle2B, $circle2C, $circle2D, $circle2E];
-	// const $columnTwoWinThree = [$circle2C, $circle2D, $circle2E, $circle2F];
 	// column three
 	const $columnThreeWinOne = [$circle3A, $circle3B, $circle3C, $circle3D];
-	// const $columnThreeWinTwo = [$circle3B, $circle3C, $circle3D, $circle3E];
-	// const $columnThreeWinThree = [$circle3C, $circle3D, $circle3E, $circle3F];
 // column 4
 	const $columnFourWinOne = [$circle4A, $circle4B, $circle4C, $circle4D];
-	// const $columnFourWinTwo = [$circle4B, $circle4C, $circle4D, $circle4E];
-	// const $columnFourWinThree = [$circle4C, $circle4D, $circle4E, $circle4F];
 // column 5
 	const $columnFiveWinOne = [$circle5A, $circle5B, $circle5C, $circle5D];
-	// const $columnFiveWinTwo = [$circle5B, $circle5C, $circle5D, $circle5E];
-	// const $columnFiveWinThree = [$circle5C, $circle5D, $circle5E, $circle5F];
 // column 6
 	const $columnSixWinOne = [$circle6A, $circle6B, $circle6C, $circle6D];
-	// const $columnSixWinTwo = [$circle6B, $circle6C, $circle6D, $circle6E];
-	// const $columnSixWinThree = [$circle6C, $circle6D, $circle6E, $circle6F];
 });
