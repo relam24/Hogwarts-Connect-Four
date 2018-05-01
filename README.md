@@ -21,5 +21,5 @@ DESCRIPTION:
  I also had a fairly rough time in figuring out the win states. I definitely repeated myself in the coding significantly but I was very focused on 
  getting the functionality to work.
  
- I had a great time working on this project!
+ I had a great time working on this project.
  
